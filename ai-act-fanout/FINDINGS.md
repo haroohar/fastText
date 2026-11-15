@@ -4,7 +4,7 @@
 
 ## TL;DR
 
-1. **No fan-out came back: 0 of 12.** Every response had `searchQueries: []` and `model: null`. This is the "newer ChatGPT models may not expose it" case. So the English-vs-local search share **can't be measured on ChatGPT through Cloro right now.** Perplexity (which returns `search_model_queries`) or Google AI Mode is the way to get fan-out in wave 2.
+1. **No fan-out came back: 0 of 12.** Every response had `searchQueries: []` and `model: null`. This is the "newer ChatGPT models may not expose it" case. So the English-vs-local search share **can't be measured on ChatGPT through Cloro right now.** The cited sources (below) are the usable signal instead.
 2. **Informational questions are a lock for EU sources.** For "chatbot disclosure" and "50-person company duties", **every inline citation went to europa.eu**: digital-strategy.ec.europa.eu, the AI Act Service Desk, or EUR-Lex. The only national exceptions were Bundesnetzagentur (DE) and CNIL (FR). No law firm, chamber or vendor was cited. Writing another explainer won't win these answers.
 3. **Local-language prompts get answered from English pages.** Most cited URLs are `/en/` pages from the Commission, even for the German, French and Dutch prompts. The answers themselves are fluent and in the local language. ChatGPT translates the English sources.
 4. **Commercial questions are won by vendors' own comparison pages.** For "best AI Act tool for SMEs", the cited sources are vendor-written "best software 2026" lists:
@@ -71,4 +71,7 @@ Each one in DE / FR / NL, plus an EN twin:
 
 ## Next step (wave 2)
 
-Run the same 12 prompts plus EN versions on **Perplexity**, which exposes fan-out queries, and on **Google AI Mode**. That answers the English-vs-local search question and shows whether ActScope's lead holds across engines.
+Stay on ChatGPT:
+- Run EN versions of the 4 questions from DE/FR/NL. This shows whether English prompts cite different (non-EU, commercial) sources.
+- Repeat the commercial prompts ("best tool", "which course") to check whether ActScope's lead and the empty Dutch slot are stable.
+- Re-check `searchQueries` from time to time in case Cloro starts returning fan-out again.

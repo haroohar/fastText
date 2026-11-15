@@ -20,7 +20,7 @@ These replace or extend the matching sections of *B2B Affiliate / Referral Busin
 **Status (15 Nov 2026):** wave 1 is done. The 12 ChatGPT prompts ran through the async API for 84 credits. See `ai-act-fanout/FINDINGS.md`.
 
 **Key results:**
-- **No fan-out returned** (0 of 12; `model: null`), so the English-vs-local share couldn't be measured on ChatGPT. Use Perplexity for that.
+- **No fan-out returned** (0 of 12; `model: null`), so the English-vs-local share couldn't be measured on ChatGPT.
 - **Informational prompts** are cited almost only from europa.eu pages: digital-strategy, the AI Act Service Desk and EUR-Lex. Most of those pages are in English, even for local-language prompts.
 - **"Best tool" prompts** are won by vendors' own comparison pages. ActScope was cited and ranked #1 in DE, FR and NL. No independent comparison site was cited.
 - **"Which course" prompts:** DE names KI-Campus, Bitkom Akademie and TÜV; FR names CNIL, FUN MOOC and France Num; NL names no provider at all. That's an open slot.
@@ -28,5 +28,5 @@ These replace or extend the matching sections of *B2B Affiliate / Referral Busin
 
 ## Update section 14 (open decisions)
 
-- Whether to run wave 2 on Perplexity and Google AI Mode for fan-out.
+- Wave 2 stays on ChatGPT: EN versions of the prompts plus repeats of the commercial prompts.
 - First language: the data points to Dutch.
