@@ -101,6 +101,57 @@ def run(item, attempts=4):
     return {"id": pid, "lang": lang, "country": country, "prompt": prompt, "response": data}
 
 
+ASYNC_URL = "https://api.cloro.dev/v1/async/task"
+
+
+def _req(method, url, **kw):
+    for i in range(6):
+        try:
+            r = requests.request(method, url, headers={"Authorization": f"Bearer {KEY}"}, timeout=60, **kw)
+            if r.status_code < 500 and r.status_code != 429:
+                return r
+            print(f"  {method} {r.status_code}, retrying", flush=True)
+        except requests.RequestException as e:
+            print(f"  {method} error {e}, retrying", flush=True)
+        time.sleep(10 * (i + 1))
+    return r
+
+
+def run_async(items, wave="w1", poll=15, max_wait=1800):
+    """Submit all prompts as async tasks (7 credits each), then poll until done."""
+    tasks = {}
+    for pid, lang, country, prompt in items:
+        key = f"aiact-{wave}-{pid}-{lang}-{country}"
+        body = {"taskType": "CHATGPT", "idempotencyKey": key,
+                "payload": {"prompt": prompt, "country": country, "include": {"searchQueries": True}}}
+        r = _req("POST", ASYNC_URL, json=body)
+        d = r.json()
+        tid = (d.get("task") or {}).get("id") or ((d.get("error") or {}).get("details") or {}).get("taskId")
+        print(f"submitted {pid}/{lang}: HTTP {r.status_code} task={tid}", flush=True)
+        tasks[(pid, lang, country, prompt)] = tid
+    out, start = {}, time.time()
+    while len(out) < len(tasks) and time.time() - start < max_wait:
+        time.sleep(poll)
+        for item, tid in tasks.items():
+            if item in out or not tid:
+                continue
+            d = _req("GET", f"{ASYNC_URL}/{tid}").json()
+            st = (d.get("task") or {}).get("status")
+            if st in ("COMPLETED", "FAILED"):
+                resp = d.get("response") or {}
+                resp = dict(resp)
+                resp.setdefault("success", st == "COMPLETED" and "result" in resp)
+                resp["_task_status"] = st
+                resp["_credits_charged"] = (d.get("credits") or {}).get("creditsCharged")
+                out[item] = resp
+                print(f"done {item[0]}/{item[1]}: {st} credits={resp['_credits_charged']}", flush=True)
+    results = []
+    for item, tid in tasks.items():
+        resp = out.get(item) or {"error": "not finished or not submitted", "_task_id": tid}
+        results.append({"id": item[0], "lang": item[1], "country": item[2], "prompt": item[3], "response": resp})
+    return results
+
+
 def describe(obj, prefix="", depth=0):
     if depth > 3:
         return
@@ -140,6 +191,11 @@ def main():
             json.dump(res, f, ensure_ascii=False, indent=2)
         print("HTTP", res["response"].get("_http_status"))
         describe(res["response"])
+        return
+    if "--async" in sys.argv:
+        results = run_async(PROMPTS)
+        write_outputs(results)
+        print("Saved fanout_results.json and fanout_summary.csv")
         return
     if "--retry-failed" in sys.argv:
         results = json.load(open("fanout_results.json", encoding="utf-8"))
