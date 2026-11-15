@@ -5,3 +5,4 @@
 data
 fasttext
 result
+ai-act-fanout/*.log
