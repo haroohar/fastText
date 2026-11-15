@@ -1,0 +1,9 @@
+prompt_id,lang,fanout_query,query_lang_guess,cited_domains
+chatbot,es,(no fan-out returned),,consolidated-regulation.eu; digital-strategy.ec.europa.eu; eur-lex.europa.eu; regulatoryai.eu
+chatbot,it,(no fan-out returned),,ai-act-service-desk.ec.europa.eu; digital-strategy.ec.europa.eu; eur-lex.europa.eu
+sme_duties,es,(no fan-out returned),,aepd.es; data.consilium.europa.eu; digital-strategy.ec.europa.eu; eur-lex.europa.eu; single-market-economy.ec.europa.eu
+sme_duties,it,(no fan-out returned),,ai-act-service-desk.ec.europa.eu; digital-strategy.ec.europa.eu; eur-lex.europa.eu
+best_tool,es,(no fan-out returned),,actnavigator.com; actscope.eu; ai-act-service-desk.ec.europa.eu; app.veritome.eu; camecon.com; complee.eu; digital-strategy.ec.europa.eu; praxikon.com; toolradar.com; unadhi.com
+best_tool,it,(no fan-out returned),,actscope.eu; ai-act-service-desk.ec.europa.eu; aicomplibot.eu; app.veritome.eu; digital-strategy.ec.europa.eu; expertinsights.com; flintbrief.com; legalithm.com; praxikon.com; setaicomply.com; toolradar.com; unadhi.com; veritome.eu
+literacy,es,(no fan-out returned),,aesia.digital.gob.es; boe.es; digital-strategy.ec.europa.eu; eur-lex.europa.eu
+literacy,it,(no fan-out returned),,ai-act-service-desk.ec.europa.eu; digital-strategy.ec.europa.eu; eur-lex.europa.eu

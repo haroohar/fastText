@@ -38,6 +38,17 @@ PROMPTS = [
     ("literacy", "nl", "NL", "Is AI-geletterdheidstraining verplicht onder de AI Act, en welke cursus moeten we gebruiken?"),
 ]
 
+PROMPTS_ES_IT = [
+    ("chatbot", "es", "ES", "¿Mi chatbot web tiene que indicar que es una IA según la Ley de IA de la UE (AI Act)?"),
+    ("chatbot", "it", "IT", "Il chatbot del mio sito web deve dichiarare di essere un'IA secondo l'AI Act europeo?"),
+    ("sme_duties", "es", "ES", "¿Qué exige la Ley de IA de la UE a una empresa de 50 empleados que usa ChatGPT?"),
+    ("sme_duties", "it", "IT", "Cosa richiede l'AI Act europeo a un'azienda con 50 dipendenti che usa ChatGPT?"),
+    ("best_tool", "es", "ES", "¿Cuál es la mejor herramienta de cumplimiento de la Ley de IA de la UE para pymes?"),
+    ("best_tool", "it", "IT", "Qual è il miglior strumento di conformità all'AI Act per le PMI?"),
+    ("literacy", "es", "ES", "¿Es obligatoria la formación en alfabetización en IA según la Ley de IA, y qué curso deberíamos hacer?"),
+    ("literacy", "it", "IT", "La formazione sull'alfabetizzazione in materia di IA è obbligatoria secondo l'AI Act, e quale corso dovremmo seguire?"),
+]
+
 EN_WORDS = {"the", "and", "for", "ai", "act", "eu", "best", "tool", "tools", "compliance", "requirements",
             "chatbot", "disclosure", "sme", "smes", "training", "literacy", "what", "how", "is", "of", "to",
             "in", "under", "company", "companies", "course", "courses", "mandatory", "obligations", "using",
@@ -195,6 +206,10 @@ def main():
         describe(res["response"])
         return
     if "--async" in sys.argv:
+        if "--es-it" in sys.argv:
+            results = run_async(PROMPTS_ES_IT, wave="w1esit")
+            write_outputs(results, "fanout_results_es_it.json", "fanout_summary_es_it.csv")
+            return
         results = run_async(PROMPTS)
         write_outputs(results)
         print("Saved fanout_results.json and fanout_summary.csv")

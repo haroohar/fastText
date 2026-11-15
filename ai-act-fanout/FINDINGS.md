@@ -75,3 +75,35 @@ Stay on ChatGPT:
 - Run EN versions of the 4 questions from DE/FR/NL. This shows whether English prompts cite different (non-EU, commercial) sources.
 - Repeat the commercial prompts ("best tool", "which course") to check whether ActScope's lead and the empty Dutch slot are stable.
 - Re-check `searchQueries` from time to time in case Cloro starts returning fan-out again.
+
+---
+
+# Addendum: Spain and Italy (15 Nov 2026)
+
+*8 more prompts (the same 4 questions in ES and IT, sent from ES/IT), Cloro async, 56 credits. Data: `fanout_results_es_it.json`, `fanout_summary_es_it.csv`. Again no fan-out returned.*
+
+| Prompt | ES (inline cited) | IT (inline cited) |
+|---|---|---|
+| chatbot disclosure | EC digital-strategy, EUR-Lex | EUR-Lex, EC, Service Desk |
+| 50-person company duties | EC, EUR-Lex, Council, **aepd.es** | EC, Service Desk, EUR-Lex |
+| best tool for SMEs | **actscope.eu, toolradar.com, unadhi.com**, EC | **actscope.eu, setaicomply.com, veritome.eu, legalithm.com, aicomplibot.eu, expertinsights.com, flintbrief.com, toolradar.com, unadhi.com, praxikon.com**, EC |
+| literacy course | EC, **boe.es, aesia.digital.gob.es**, EUR-Lex | EC, EUR-Lex, Service Desk |
+
+- **Same pattern as DE/FR/NL.** EU sources win the questions about the law. Spain adds its national authorities (AEPD, BOE, AESIA).
+- **ActScope is #1 again in both countries**, at €39/mo. ES recommends ActScope, SetAIComply, Complipath and Modulos; IT recommends ActScope, SetAIComply, Veritome and Legalithm. **No Spanish- or Italian-language comparison site was cited.** The sources are English-language vendor and directory pages (toolradar, expertinsights).
+- **The training question is fully open in both.** Neither answer names a single course or provider. Like the NL answer, both end by asking about the type of organisation, and IT offers "un corso concreto, possibilmente in italiano e con attestato". **ES and IT are the same open slot as NL.**
+
+**Updated language priority:** NL, IT and ES all have an empty "which course" slot and thin "best tool" sources. DE is the most contested, since established providers are already cited.
+
+# Affiliate check: the cited German training providers
+
+| Provider | What it is | Affiliate program? |
+|---|---|---|
+| **KI-Campus** (ki-campus.org) | Free learning platform funded by the BMBF (German federal research ministry), with CC BY-SA courses | **No.** It's free and non-commercial, so there's nothing to earn. It's useful as a free option on comparison pages, and it competes for the citation. |
+| **Bitkom Akademie** | Paid seminars and certificate courses from the Bitkom industry association, including "KI-Kompetenzschulungen" | **None found.** No public program. You'd have to negotiate a referral or reseller deal directly (B2B in-house training is the valuable part). |
+| **TÜV** (TÜV Rheinland Akademie, TÜV Austria, TÜV SÜD/NORD) | Paid courses and certificates | **No commission program.** TÜV Rheinland and TÜV Austria "partner programs" are licensing deals for training organisations that want to run TÜV-accredited courses, not referral commissions. |
+
+**Implication:** the training slot doesn't monetise through public affiliate links. The options are:
+1. negotiated referral deals with paid providers (Bitkom Akademie, TÜV, private trainers);
+2. course marketplaces that have affiliate programs (to verify);
+3. selling or reselling your own course or partner bundle in the empty NL/IT/ES slots.
