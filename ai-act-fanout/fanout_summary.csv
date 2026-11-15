@@ -1,0 +1,13 @@
+prompt_id,lang,fanout_query,query_lang_guess,cited_domains
+chatbot,de,(no fan-out returned),,ai-act-service-desk.ec.europa.eu; bundesnetzagentur.de; consolidated-regulation.eu; digital-strategy.ec.europa.eu; doi.org; eur-lex.europa.eu; regulatoryai.eu; service.betterregulation.com
+chatbot,fr,(no fan-out returned),,ai-act-service-desk.ec.europa.eu; digital-strategy.ec.europa.eu
+chatbot,nl,(no fan-out returned),,digital-strategy.ec.europa.eu; eur-lex.europa.eu
+sme_duties,de,(no fan-out returned),,ai-act-service-desk.ec.europa.eu; digital-strategy.ec.europa.eu; eur-lex.europa.eu
+sme_duties,fr,(no fan-out returned),,ai-act-service-desk.ec.europa.eu; cnil.fr; digital-strategy.ec.europa.eu; eur-lex.europa.eu; europarl.europa.eu
+sme_duties,nl,(no fan-out returned),,ai-act-service-desk.ec.europa.eu; aicontext.eu; consilium.europa.eu; digital-strategy.ec.europa.eu; eur-lex.europa.eu
+best_tool,de,(no fan-out returned),,actscope.eu; ai-act-service-desk.ec.europa.eu; compaia.eu; digital-strategy.ec.europa.eu; legalithm.com; setaicomply.com
+best_tool,fr,(no fan-out returned),,actscope.eu; ai-act-service-desk.ec.europa.eu; aidpia.pro; aioact.com; app.veritome.eu; complee.eu; cpdpconferences.org; dastra.eu; dev.themio.ai; kertos.io; kla.digital; legalithm.com; praxikon.com; setaicomply.com; transparia.fr; unadhi.com; veritome.eu
+best_tool,nl,(no fan-out returned),,actnavigator.com; actscope.eu; ai-act-compass.com; app.veritome.eu; complee.eu; euaicompass.com; legalithm.com; praxikon.com; setaicomply.com; toolradar.com; unadhi.com; vahtor.com; veritome.eu
+literacy,de,(no fan-out returned),,akademie.tuv.com; bitkom-akademie.de; bitkom-consult.de; digital-strategy.ec.europa.eu; epd.guide; eur-lex.europa.eu; ki-campus.org; kurse.tuv.com; tuvsud.com
+literacy,fr,(no fan-out returned),,actionfirst.fr; aesia.digital.gob.es; ai-act-service-desk.ec.europa.eu; ai-x-leaders.com; aicontext.eu; analyticsinsight.net; bundesnetzagentur.de; cnil.fr; digital-strategy.ec.europa.eu; edpb.europa.eu; eur-lex.europa.eu; francenum.gouv.fr; fun-mooc.fr; praxikon.com; service.betterregulation.com
+literacy,nl,(no fan-out returned),,ai-act-law.eu; ai-act-service-desk.ec.europa.eu; aicontext.eu; ancom.ro; digital-strategy.ec.europa.eu; edpb.europa.eu; eur-lex.europa.eu

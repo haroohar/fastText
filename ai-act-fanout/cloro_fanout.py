@@ -140,7 +140,9 @@ def run_async(items, wave="w1", poll=15, max_wait=1800):
             if st in ("COMPLETED", "FAILED"):
                 resp = d.get("response") or {}
                 resp = dict(resp)
-                resp.setdefault("success", st == "COMPLETED" and "result" in resp)
+                if st == "COMPLETED" and "result" not in resp:  # async returns the result object unwrapped
+                    resp = {"success": True, "result": resp}
+                resp.setdefault("success", st == "COMPLETED")
                 resp["_task_status"] = st
                 resp["_credits_charged"] = (d.get("credits") or {}).get("creditsCharged")
                 out[item] = resp

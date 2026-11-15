@@ -1,0 +1,589 @@
+{
+  "per_prompt": [
+    {
+      "id": "chatbot",
+      "lang": "de",
+      "http": null,
+      "ok": true,
+      "n_sources": 18,
+      "n_cited_domains": 3,
+      "n_fanout": 0,
+      "entities": [],
+      "domains": [
+        "ai-act-service-desk.ec.europa.eu",
+        "bundesnetzagentur.de",
+        "consolidated-regulation.eu",
+        "digital-strategy.ec.europa.eu",
+        "doi.org",
+        "eur-lex.europa.eu",
+        "regulatoryai.eu",
+        "service.betterregulation.com"
+      ],
+      "text_len": 2199
+    },
+    {
+      "id": "chatbot",
+      "lang": "fr",
+      "http": null,
+      "ok": true,
+      "n_sources": 5,
+      "n_cited_domains": 2,
+      "n_fanout": 0,
+      "entities": [],
+      "domains": [
+        "ai-act-service-desk.ec.europa.eu",
+        "digital-strategy.ec.europa.eu"
+      ],
+      "text_len": 3469
+    },
+    {
+      "id": "chatbot",
+      "lang": "nl",
+      "http": null,
+      "ok": true,
+      "n_sources": 3,
+      "n_cited_domains": 2,
+      "n_fanout": 0,
+      "entities": [],
+      "domains": [
+        "digital-strategy.ec.europa.eu",
+        "eur-lex.europa.eu"
+      ],
+      "text_len": 2326
+    },
+    {
+      "id": "sme_duties",
+      "lang": "de",
+      "http": null,
+      "ok": true,
+      "n_sources": 16,
+      "n_cited_domains": 3,
+      "n_fanout": 0,
+      "entities": [],
+      "domains": [
+        "ai-act-service-desk.ec.europa.eu",
+        "digital-strategy.ec.europa.eu",
+        "eur-lex.europa.eu"
+      ],
+      "text_len": 8067
+    },
+    {
+      "id": "sme_duties",
+      "lang": "fr",
+      "http": null,
+      "ok": true,
+      "n_sources": 17,
+      "n_cited_domains": 4,
+      "n_fanout": 0,
+      "entities": [],
+      "domains": [
+        "ai-act-service-desk.ec.europa.eu",
+        "cnil.fr",
+        "digital-strategy.ec.europa.eu",
+        "eur-lex.europa.eu",
+        "europarl.europa.eu"
+      ],
+      "text_len": 8618
+    },
+    {
+      "id": "sme_duties",
+      "lang": "nl",
+      "http": null,
+      "ok": true,
+      "n_sources": 18,
+      "n_cited_domains": 4,
+      "n_fanout": 0,
+      "entities": [],
+      "domains": [
+        "ai-act-service-desk.ec.europa.eu",
+        "aicontext.eu",
+        "consilium.europa.eu",
+        "digital-strategy.ec.europa.eu",
+        "eur-lex.europa.eu"
+      ],
+      "text_len": 6937
+    },
+    {
+      "id": "best_tool",
+      "lang": "de",
+      "http": null,
+      "ok": true,
+      "n_sources": 10,
+      "n_cited_domains": 6,
+      "n_fanout": 0,
+      "entities": [
+        "ActScope",
+        "SetAIComply",
+        "Compaia",
+        "Legalithm",
+        "Credo AI"
+      ],
+      "domains": [
+        "actscope.eu",
+        "ai-act-service-desk.ec.europa.eu",
+        "compaia.eu",
+        "digital-strategy.ec.europa.eu",
+        "legalithm.com",
+        "setaicomply.com"
+      ],
+      "text_len": 4362
+    },
+    {
+      "id": "best_tool",
+      "lang": "fr",
+      "http": null,
+      "ok": true,
+      "n_sources": 22,
+      "n_cited_domains": 4,
+      "n_fanout": 0,
+      "entities": [
+        "ActScope",
+        "SetAIComply",
+        "TransparIA",
+        "Dastra",
+        "Witik"
+      ],
+      "domains": [
+        "actscope.eu",
+        "ai-act-service-desk.ec.europa.eu",
+        "aidpia.pro",
+        "aioact.com",
+        "app.veritome.eu",
+        "complee.eu",
+        "cpdpconferences.org",
+        "dastra.eu",
+        "dev.themio.ai",
+        "kertos.io",
+        "kla.digital",
+        "legalithm.com",
+        "praxikon.com",
+        "setaicomply.com",
+        "transparia.fr",
+        "unadhi.com",
+        "veritome.eu"
+      ],
+      "text_len": 2776
+    },
+    {
+      "id": "best_tool",
+      "lang": "nl",
+      "http": null,
+      "ok": true,
+      "n_sources": 18,
+      "n_cited_domains": 3,
+      "n_fanout": 0,
+      "entities": [
+        "ActScope",
+        "SetAIComply",
+        "AI-Act-Kompass",
+        "Veritome",
+        "Complipath"
+      ],
+      "domains": [
+        "actnavigator.com",
+        "actscope.eu",
+        "ai-act-compass.com",
+        "app.veritome.eu",
+        "complee.eu",
+        "euaicompass.com",
+        "legalithm.com",
+        "praxikon.com",
+        "setaicomply.com",
+        "toolradar.com",
+        "unadhi.com",
+        "vahtor.com",
+        "veritome.eu"
+      ],
+      "text_len": 2473
+    },
+    {
+      "id": "literacy",
+      "lang": "de",
+      "http": null,
+      "ok": true,
+      "n_sources": 27,
+      "n_cited_domains": 4,
+      "n_fanout": 0,
+      "entities": [
+        "KI-Campus",
+        "TÜV",
+        "Bitkom Akademie"
+      ],
+      "domains": [
+        "akademie.tuv.com",
+        "bitkom-akademie.de",
+        "bitkom-consult.de",
+        "digital-strategy.ec.europa.eu",
+        "epd.guide",
+        "eur-lex.europa.eu",
+        "ki-campus.org",
+        "kurse.tuv.com",
+        "tuvsud.com"
+      ],
+      "text_len": 4312
+    },
+    {
+      "id": "literacy",
+      "lang": "fr",
+      "http": null,
+      "ok": true,
+      "n_sources": 23,
+      "n_cited_domains": 3,
+      "n_fanout": 0,
+      "entities": [
+        "CNIL",
+        "FUN MOOC",
+        "France Num",
+        "Commission européenne – AI Office"
+      ],
+      "domains": [
+        "actionfirst.fr",
+        "aesia.digital.gob.es",
+        "ai-act-service-desk.ec.europa.eu",
+        "ai-x-leaders.com",
+        "aicontext.eu",
+        "analyticsinsight.net",
+        "bundesnetzagentur.de",
+        "cnil.fr",
+        "digital-strategy.ec.europa.eu",
+        "edpb.europa.eu",
+        "eur-lex.europa.eu",
+        "francenum.gouv.fr",
+        "fun-mooc.fr",
+        "praxikon.com",
+        "service.betterregulation.com"
+      ],
+      "text_len": 5840
+    },
+    {
+      "id": "literacy",
+      "lang": "nl",
+      "http": null,
+      "ok": true,
+      "n_sources": 14,
+      "n_cited_domains": 2,
+      "n_fanout": 0,
+      "entities": [],
+      "domains": [
+        "ai-act-law.eu",
+        "ai-act-service-desk.ec.europa.eu",
+        "aicontext.eu",
+        "ancom.ro",
+        "digital-strategy.ec.europa.eu",
+        "edpb.europa.eu",
+        "eur-lex.europa.eu"
+      ],
+      "text_len": 3937
+    }
+  ],
+  "top_domains": [
+    [
+      "digital-strategy.ec.europa.eu",
+      10,
+      "eu_gov"
+    ],
+    [
+      "ai-act-service-desk.ec.europa.eu",
+      9,
+      "eu_gov"
+    ],
+    [
+      "eur-lex.europa.eu",
+      8,
+      "eu_gov"
+    ],
+    [
+      "aicontext.eu",
+      3,
+      "other"
+    ],
+    [
+      "setaicomply.com",
+      3,
+      "vendor_tool"
+    ],
+    [
+      "legalithm.com",
+      3,
+      "law_firm"
+    ],
+    [
+      "actscope.eu",
+      3,
+      "other"
+    ],
+    [
+      "praxikon.com",
+      3,
+      "other"
+    ],
+    [
+      "service.betterregulation.com",
+      2,
+      "other"
+    ],
+    [
+      "bundesnetzagentur.de",
+      2,
+      "national_gov_regulator"
+    ],
+    [
+      "cnil.fr",
+      2,
+      "national_gov_regulator"
+    ],
+    [
+      "complee.eu",
+      2,
+      "other"
+    ],
+    [
+      "app.veritome.eu",
+      2,
+      "other"
+    ],
+    [
+      "unadhi.com",
+      2,
+      "other"
+    ],
+    [
+      "veritome.eu",
+      2,
+      "other"
+    ],
+    [
+      "edpb.europa.eu",
+      2,
+      "eu_gov"
+    ],
+    [
+      "doi.org",
+      1,
+      "other"
+    ],
+    [
+      "regulatoryai.eu",
+      1,
+      "other"
+    ],
+    [
+      "consolidated-regulation.eu",
+      1,
+      "other"
+    ],
+    [
+      "europarl.europa.eu",
+      1,
+      "eu_gov"
+    ],
+    [
+      "consilium.europa.eu",
+      1,
+      "eu_gov"
+    ],
+    [
+      "compaia.eu",
+      1,
+      "other"
+    ],
+    [
+      "aidpia.pro",
+      1,
+      "other"
+    ],
+    [
+      "kla.digital",
+      1,
+      "other"
+    ],
+    [
+      "cpdpconferences.org",
+      1,
+      "other"
+    ],
+    [
+      "transparia.fr",
+      1,
+      "other"
+    ],
+    [
+      "dastra.eu",
+      1,
+      "other"
+    ],
+    [
+      "aioact.com",
+      1,
+      "other"
+    ],
+    [
+      "dev.themio.ai",
+      1,
+      "other"
+    ],
+    [
+      "kertos.io",
+      1,
+      "other"
+    ],
+    [
+      "vahtor.com",
+      1,
+      "other"
+    ],
+    [
+      "actnavigator.com",
+      1,
+      "other"
+    ],
+    [
+      "toolradar.com",
+      1,
+      "other"
+    ],
+    [
+      "ai-act-compass.com",
+      1,
+      "ai_act_info_site"
+    ],
+    [
+      "euaicompass.com",
+      1,
+      "other"
+    ],
+    [
+      "akademie.tuv.com",
+      1,
+      "standards_cert"
+    ],
+    [
+      "epd.guide",
+      1,
+      "other"
+    ],
+    [
+      "bitkom-consult.de",
+      1,
+      "chamber_assoc"
+    ],
+    [
+      "bitkom-akademie.de",
+      1,
+      "chamber_assoc"
+    ],
+    [
+      "ki-campus.org",
+      1,
+      "other"
+    ]
+  ],
+  "top_cited_inline": [
+    [
+      "digital-strategy.ec.europa.eu",
+      10
+    ],
+    [
+      "eur-lex.europa.eu",
+      7
+    ],
+    [
+      "ai-act-service-desk.ec.europa.eu",
+      7
+    ],
+    [
+      "actscope.eu",
+      3
+    ],
+    [
+      "bundesnetzagentur.de",
+      1
+    ],
+    [
+      "cnil.fr",
+      1
+    ],
+    [
+      "consilium.europa.eu",
+      1
+    ],
+    [
+      "setaicomply.com",
+      1
+    ],
+    [
+      "legalithm.com",
+      1
+    ],
+    [
+      "compaia.eu",
+      1
+    ],
+    [
+      "kertos.io",
+      1
+    ],
+    [
+      "transparia.fr",
+      1
+    ],
+    [
+      "unadhi.com",
+      1
+    ],
+    [
+      "praxikon.com",
+      1
+    ],
+    [
+      "kurse.tuv.com",
+      1
+    ],
+    [
+      "bitkom-akademie.de",
+      1
+    ],
+    [
+      "ki-campus.org",
+      1
+    ]
+  ],
+  "category_by_prompt_type": {
+    "chatbot": {
+      "other": 4,
+      "eu_gov": 7,
+      "national_gov_regulator": 1
+    },
+    "sme_duties": {
+      "eu_gov": 11,
+      "national_gov_regulator": 1,
+      "other": 1
+    },
+    "best_tool": {
+      "vendor_tool": 3,
+      "law_firm": 3,
+      "eu_gov": 3,
+      "other": 26,
+      "ai_act_info_site": 1
+    },
+    "literacy": {
+      "standards_cert": 3,
+      "other": 12,
+      "chamber_assoc": 2,
+      "eu_gov": 10,
+      "national_gov_regulator": 3,
+      "law_firm": 1
+    }
+  },
+  "category_totals": {
+    "other": 43,
+    "eu_gov": 31,
+    "national_gov_regulator": 5,
+    "vendor_tool": 3,
+    "law_firm": 4,
+    "ai_act_info_site": 1,
+    "standards_cert": 3,
+    "chamber_assoc": 2
+  },
+  "fanout_queries": []
+}

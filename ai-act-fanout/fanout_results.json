@@ -1,0 +1,2794 @@
+[
+  {
+    "id": "chatbot",
+    "lang": "de",
+    "country": "DE",
+    "prompt": "Muss mein Website-Chatbot nach dem EU AI Act angeben, dass er eine KI ist?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "Ja. Wenn dein Website-Chatbot mit Besuchern kommuniziert, musst du grundsätzlich kenntlich machen, dass sie mit einer KI und nicht mit einem Menschen sprechen.\n\nDie Rechtsgrundlage ist Artikel 50 Absatz 1 der EU-KI-Verordnung (EU AI Act).\n\nDie Transparenzpflicht gilt seit dem 2. August 2026 und betrifft insbesondere Chatbots im Kundenservice, auf Unternehmenswebsites und in Onlineshops.\n\nWas bedeutet das konkret?\n\nDeine Website muss Besucher darüber informieren, dass sie mit einem KI-System interagieren.\n\nDie Information muss grundsätzlich spätestens zum Beginn der Interaktion erfolgen.\n\nWie sollte der Hinweis aussehen?\n\nEine einfache Kennzeichnung reicht grundsätzlich aus. Zum Beispiel:\n\nDein Chat-Assistent\n\nKI-Assistent\n\nHallo! 👋 Ich bin der KI-Assistent von [Unternehmen]. Ich beantworte gerne deine Fragen und helfe dir weiter.\n\nAlternativ als kurzer Hinweis oberhalb des Chatfensters:\n\n„Du chattest hier mit einer künstlichen Intelligenz (KI).“\n\n„Unser digitaler KI-Assistent hilft dir gerne weiter.“\n\n„Dieser Chat wird durch künstliche Intelligenz unterstützt.“\n\nGibt es Ausnahmen?\n\nJa. Eine gesonderte Information ist nicht erforderlich, wenn für eine angemessen informierte und aufmerksame Person aufgrund der Umstände offensichtlich ist, dass sie mit einer KI kommuniziert.\n\nBei einem normalen Website-Chatbot würde ich mich aber nicht auf diese Ausnahme verlassen.\n\nWas ist die Rechtsgrundlage?\n\nArtikel 50 Abs. 1 EU AI Act: Transparenz bei direkter Interaktion mit KI.\n\nArtikel 50 Abs. 5 EU AI Act: Die Information muss klar und unterscheidbar spätestens bei der ersten Interaktion erfolgen.\n\nGeltung: Seit dem 2. August 2026.\n\nDie offiziellen Erläuterungen findest du hier: FAQ der Europäischen Kommission zu Artikel 50 .\n\nMeine Empfehlung\n\nIch würde den Hinweis direkt in die erste Begrüßungsnachricht des Chatbots integrieren. Das ist unkompliziert, nutzerfreundlich und eine gute Lösung für die Transparenzanforderung.\n\nEine Frage zur genaueren Einordnung: Entwickelst du den Chatbot selbst (z. B. mit OpenAI API) oder verwendest du einen fertigen Chatbot-Anbieter, den du in deine Website einbindest? Das kann für die rechtliche Verantwortlichkeit einen Unterschied machen.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "Transparency obligations under Article 50 of the AI Act",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "Bundesnetzagentur",
+            "url": "https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/04_Transparency/guidelines/start.html",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "EUR-Lex - 02024R1689-20260727 - DE",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1769791979396&uri=CELEX%3A02024R1689-20260727",
+            "footnote": false
+          },
+          {
+            "position": 4,
+            "label": "",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/faq",
+            "footnote": true
+          },
+          {
+            "position": 5,
+            "label": "",
+            "url": "https://bundesnetzagentur.de/EN/Areas/Digitalisation/AI/04_Transparency/guidelines/start.html",
+            "footnote": true
+          },
+          {
+            "position": 6,
+            "label": "",
+            "url": "https://consolidated-regulation.eu/regulation/regulation-eu-2024-1689-of-the-european-parliament-and-of-the-council-of-13-june-2024-laying-down-harmonised-rules-on-artificial-intelligence-and-amending-regulations-ec-no-300-2008-eu-no-167-2/",
+            "footnote": true
+          },
+          {
+            "position": 7,
+            "label": "",
+            "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+            "footnote": true
+          },
+          {
+            "position": 8,
+            "label": "",
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+            "footnote": true
+          },
+          {
+            "position": 9,
+            "label": "",
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+            "footnote": true
+          },
+          {
+            "position": 10,
+            "label": "",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations",
+            "footnote": true
+          },
+          {
+            "position": 11,
+            "label": "",
+            "url": "https://doi.org/10.1017/ilm.2024.46",
+            "footnote": true
+          },
+          {
+            "position": 12,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689",
+            "footnote": true
+          },
+          {
+            "position": 13,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN-DE/TXT/?uri=CELEX%3A32024R1689",
+            "footnote": true
+          },
+          {
+            "position": 14,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          },
+          {
+            "position": 15,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?qid=1789425764105&uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          },
+          {
+            "position": 16,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202401689",
+            "footnote": true
+          },
+          {
+            "position": 17,
+            "label": "",
+            "url": "https://service.betterregulation.com/document/742246",
+            "footnote": true
+          },
+          {
+            "position": 18,
+            "label": "",
+            "url": "https://www.regulatoryai.eu/en/article/50/",
+            "footnote": true
+          }
+        ],
+        "entities": [],
+        "map": [],
+        "followUpForm": null,
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+            "label": "Transparency obligations under Article 50 of the AI Act",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1769791979396&uri=CELEX%3A02024R1689-20260727",
+            "label": "EUR-Lex - 02024R1689-20260727 - DE",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 3
+          },
+          {
+            "url": "https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/04_Transparency/guidelines/start.html",
+            "label": "Bundesnetzagentur",
+            "domain": "bundesnetzagentur.de",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 2
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  },
+  {
+    "id": "chatbot",
+    "lang": "fr",
+    "country": "FR",
+    "prompt": "Mon chatbot de site web doit-il indiquer qu'il est une IA selon l'AI Act européen ?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "Oui. Depuis le 2 août 2026, votre chatbot de site web doit en principe informer les visiteurs qu'ils interagissent avec une intelligence artificielle, conformément à l'article 50 du règlement européen sur l'intelligence artificielle (AI Act).\n\nCette obligation concerne directement les chatbots conversationnels.\n\n1. Ce que prévoit l'article 50 de l'AI Act\n\nL'article 50, paragraphe 1, impose aux fournisseurs de systèmes d'IA destinés à interagir directement avec des personnes physiques de concevoir leur système de manière à informer les utilisateurs qu'ils interagissent avec une IA.\n\nIl existe une exception : lorsque le caractère artificiel de l'interaction est évident pour une personne raisonnablement informée, attentive et prudente, compte tenu du contexte.\n\nLa Commission européenne recommande toutefois une interprétation restrictive de cette exception.\n\n2. Comment informer les visiteurs ?\n\nL'information doit être :\n\nClaire et compréhensible.\n\nVisible et identifiable.\n\nCommuniquée au plus tard lors de la première interaction.\n\nIl n'est pas nécessaire d'afficher un avertissement à chaque message.\n\nExemple de formulation recommandée :\n\nAssistant virtuel\n\nConforme dans son principe\n\nBonjour ! 👋\n\nJe suis un assistant conversationnel basé sur l'intelligence artificielle (IA). Je suis là pour répondre à vos questions et vous accompagner dans vos démarches.\n\nComment puis-je vous aider ?\n\nVous pouvez également utiliser une formulation plus courte :\n\n« Bonjour ! Je suis un assistant IA. Comment puis-je vous aider ? »\n\n3. Qui est responsable de cette obligation ?\n\nL'AI Act distingue deux acteurs :\n\nLe fournisseur (provider) : celui qui développe le système d'IA ou le fait développer et le commercialise ou le met en service sous son nom.\n\nLe déployeur (deployer) : l'entreprise qui utilise le chatbot dans le cadre de son activité professionnelle.\n\nL'article 50(1) impose principalement l'obligation de conception au fournisseur. Cela ne signifie pas que l'entreprise qui installe le chatbot peut ignorer cette exigence : elle doit notamment s'assurer que le dispositif utilisé permet de respecter l'obligation de transparence.\n\n4. Depuis quand cette obligation s'applique-t-elle ?\n\nDate\n\nSituation\n\n2 août 2024\n\nEntrée en vigueur de l'AI Act\n\n2 août 2026\n\nApplication des obligations de transparence de l'article 50\n\n15 novembre 2026\n\nCes obligations sont applicables\n\n5. Ce que je vous conseille pour votre site web\n\nPour être prudent juridiquement, je recommande :\n\nAfficher dès l'ouverture du chatbot la mention « Assistant IA ».\n\nNe pas laisser croire que le visiteur échange avec un conseiller humain.\n\nPrévoir une possibilité de contacter un interlocuteur humain si nécessaire.\n\nVérifier également les obligations RGPD concernant les données personnelles collectées dans les conversations.\n\nTextes officiels :\n\nArticle 50 de l'AI Act .\n\nQuestions-réponses de la Commission européenne sur les obligations de transparence .\n\nUne précision pour vous donner une réponse plus ciblée\n\nVotre chatbot est-il :\n\nA. Un chatbot développé sur mesure avec une API OpenAI (GPT).\n\nB. Un chatbot utilisant ChatGPT ou un modèle d'IA intégré à votre site.\n\nC. Un chatbot développé par un prestataire externe (solution SaaS).\n\nD. Un chatbot qui répond automatiquement à partir de votre documentation, sans intervention humaine.\n\nLa distinction est importante pour déterminer précisément vos obligations en tant que fournisseur ou déployeur au regard de l'AI Act.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "Transparency obligations under Article 50 of the AI Act",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "Article 50: Transparency obligations for providers and deployers of certain AI systems",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50?full=1",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "Guidelines on transparency obligations for providers and deployers of certain AI systems",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations",
+            "footnote": false
+          },
+          {
+            "position": 4,
+            "label": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+            "footnote": false
+          },
+          {
+            "position": 5,
+            "label": "Frequently Asked Questions",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/faq",
+            "footnote": false
+          }
+        ],
+        "entities": [],
+        "map": [],
+        "followUpForm": null,
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50?full=1",
+            "label": "Article 50: Transparency obligations for providers and deployers of certain AI systems",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 2
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+            "label": "Transparency obligations under Article 50 of the AI Act",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+            "label": "Transparency obligations under Article 50 of the AI Act",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 1
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations",
+            "label": "Guidelines on transparency obligations for providers and deployers of certain AI systems",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 3
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+            "label": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 4
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/faq",
+            "label": "Frequently Asked Questions",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 5
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  },
+  {
+    "id": "chatbot",
+    "lang": "nl",
+    "country": "NL",
+    "prompt": "Moet mijn websitechatbot volgens de EU AI Act vermelden dat het AI is?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "Ja. Volgens de EU AI Act moet je websitechatbot bezoekers duidelijk laten weten dat ze met AI communiceren. Dit geldt sinds 2 augustus 2026.\n\nDe verplichting staat in artikel 50 van de Europese AI Act (Verordening EU 2024/1689).\n\n1. Wat betekent dit concreet?\n\nAls je website een chatbot heeft die met bezoekers communiceert en gebruikmaakt van AI, moet duidelijk zijn dat de bezoeker met een AI-systeem praat en niet met een mens.\n\nDit geldt bijvoorbeeld voor:\n\nChatbots op bedrijfswebsites.\nAI-chatbots die vragen van klanten beantwoorden.\nAI-assistenten die bezoekers helpen bij het vinden van producten of diensten.\nChatbots die gebruikmaken van ChatGPT of andere taalmodellen.\n\n2. Hoe moet je dit vermelden?\n\nDe melding moet:\n\nDuidelijk en begrijpelijk zijn.\nOpvallen voor de bezoeker.\nUiterlijk bij het eerste contactmoment zichtbaar zijn.\n\nJe hoeft hiervoor geen ingewikkelde juridische tekst te gebruiken.\n\nMijn advies: plaats bij het openen van je chatbot deze melding:\n\n👋 Hallo! Ik ben de AI-assistent van [Bedrijfsnaam]. Ik help je graag met je vragen.\n\nOf iets explicieter:\n\nJe chat met een AI-assistent en niet met een menselijke medewerker. Ik help je graag verder!\n\nBeide zijn geschikte formuleringen.\n\n3. Zijn er uitzonderingen?\n\nJa. De AI Act maakt een uitzondering wanneer het voor een redelijk geïnformeerde, oplettende bezoeker overduidelijk is dat hij met AI communiceert.\n\nDe Europese Commissie interpreteert deze uitzondering echter terughoudend.\n\nMijn advies is daarom om altijd expliciet te vermelden dat het om AI gaat.\n\n4. Welke datum geldt?\n\nDatum\nVerplichting\n1 augustus 2024\nAI Act in werking getreden\n2 augustus 2026\nTransparantieverplichtingen van artikel 50 van toepassing\n15 november 2026\nDe verplichting geldt dus al\n\n5. Waar kun je dit nalezen?\n\nDe officiële informatie vind je hier:\n\nEU AI Act – Artikel 50\nEuropese Commissie – Veelgestelde vragen over transparantieverplichtingen\nEuropese Commissie – Richtlijnen over AI-transparantie\n\nMijn praktische advies: zorg dat je chatbot vanaf het eerste bericht aangeeft dat het een AI-assistent is. Een korte melding in de openingsboodschap is doorgaans voldoende voor deze specifieke transparantieverplichting.\n\nJe hoeft dus niet op iedere pagina van je website te vermelden dat je AI gebruikt. Het gaat om de communicatie met de chatbot zelf.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "Europese Commissie – Veelgestelde vragen over transparantieverplichtingen",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "Europese Commissie – Richtlijnen over AI-transparantie",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "EU AI Act – Artikel 50",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689",
+            "footnote": false
+          }
+        ],
+        "entities": [],
+        "map": [],
+        "followUpForm": null,
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+            "label": "Europese Commissie – Veelgestelde vragen over transparantieverplichtingen",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations",
+            "label": "Europese Commissie – Richtlijnen over AI-transparantie",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 2
+          },
+          {
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689",
+            "label": "EU AI Act – Artikel 50",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 3
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  },
+  {
+    "id": "sme_duties",
+    "lang": "de",
+    "country": "DE",
+    "prompt": "Was verlangt der EU AI Act von einem Unternehmen mit 50 Mitarbeitern, das ChatGPT nutzt?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "EU AI Act: Was muss ein Unternehmen mit 50 Mitarbeitern beachten, wenn es ChatGPT nutzt?\n\nDie gute Nachricht: Ein Unternehmen mit 50 Mitarbeitern muss nicht automatisch ein umfangreiches KI-Compliance-Programm aufbauen, nur weil seine Beschäftigten ChatGPT verwenden.\n\nAllerdings gelten bestimmte Pflichten aus dem EU AI Act (EU-KI-Verordnung) auch für kleine und mittelständische Unternehmen.\n\nEntscheidend ist vor allem, wofür ChatGPT eingesetzt wird und welche Entscheidungen damit getroffen werden.\n\nStand: November 2026.\n\n1. Die wichtigsten Pflichten im Überblick\n\nFür ein Unternehmen mit 50 Mitarbeitern sind insbesondere folgende Punkte relevant:\n\nAnforderung\nVerpflichtung\nKI-Kompetenz (Art. 4)\nMitarbeiter müssen angemessen über KI informiert und geschult werden.\nTransparenz\nBei bestimmten KI-Anwendungen müssen Nutzer erkennen können, dass sie mit KI interagieren.\nRisikobewertung\nDas Unternehmen muss prüfen, ob es KI in einem Hochrisikobereich einsetzt.\nMenschliche Kontrolle\nKI-Ergebnisse dürfen nicht unkritisch übernommen werden, insbesondere bei risikoreichen Anwendungen.\nDatenschutz\nPersonenbezogene Daten müssen weiterhin DSGVO-konform verarbeitet werden.\nDokumentation\nDer KI-Einsatz sollte nachvollziehbar geregelt und dokumentiert sein.\n\nWichtig: Nicht alle diese Anforderungen sind für jeden ChatGPT-Einsatz gleichermaßen verbindlich. Einige ergeben sich aus dem AI Act, andere aus der DSGVO oder anderen Rechtsvorschriften.\n\n2. Mitarbeiterschulung – die wichtigste konkrete Pflicht (Artikel 4)\n\nDiese Verpflichtung gilt bereits seit dem 2. Februar 2025.\n\nUnternehmen müssen Maßnahmen ergreifen, um die KI-Kompetenz ihrer Mitarbeiter zu fördern.\n\nDas bedeutet beispielsweise:\n\nMitarbeiter verstehen grundsätzlich, wie ChatGPT funktioniert.\nSie wissen, dass ChatGPT falsche Informationen erzeugen kann (Halluzinationen).\nSie können KI-generierte Inhalte kritisch überprüfen.\nSie wissen, welche Unternehmensdaten sie eingeben dürfen.\nSie kennen die Grenzen und Risiken der KI-Anwendung.\n\nMuss jeder Mitarbeiter eine zertifizierte KI-Schulung absolvieren?\n\nNein. Der AI Act schreibt weder eine bestimmte Schulungsdauer noch ein Zertifikat oder eine Prüfung vor.\n\nSeit der Änderung des Artikels 4 im Juli 2026 ist zudem ausdrücklich klargestellt, dass kein bestimmtes Kompetenzniveau für jeden einzelnen Mitarbeiter garantiert werden muss.\n\nDie Maßnahmen müssen zum jeweiligen Einsatzgebiet und Wissensstand passen.\n\n3. Risikoklassifizierung: Ist ChatGPT Hochrisiko-KI?\n\nDer EU AI Act unterscheidet verschiedene Risikokategorien:\n\nRisikokategorie\nBeispiele\nBedeutung\nMinimales Risiko\nTexte schreiben, übersetzen, Ideen entwickeln\nIn der Regel geringe zusätzliche Pflichten\nBegrenztes Risiko\nChatbots im Kundenkontakt\nTransparenzpflichten\nHohes Risiko\nKI zur Bewerberauswahl oder Personalbewertung\nUmfangreiche zusätzliche Anforderungen\nUnzulässiges Risiko\nBestimmte manipulative KI-Systeme oder Social Scoring\nVerboten\n\nBeispiele für den normalen ChatGPT-Einsatz:\n\nMarketingtexte erstellen: normalerweise kein Hochrisiko.\nE-Mails formulieren: normalerweise kein Hochrisiko.\nExcel-Formeln entwickeln: normalerweise kein Hochrisiko.\nKundenanfragen beantworten: grundsätzlich kein Hochrisiko, aber Transparenzpflichten können greifen.\nBewerber anhand ihrer Lebensläufe automatisch bewerten und auswählen: möglicherweise Hochrisiko.\n\nGerade der letzte Punkt ist wichtig: Wird KI für Personalentscheidungen eingesetzt, können umfangreiche zusätzliche Pflichten entstehen.\n\nDie Hochrisiko-Regelungen sind nach dem aktuellen Zeitplan grundsätzlich ab dem 2. Dezember 2027 anwendbar.\n\n4. Transparenzpflichten (Artikel 50)\n\nSeit dem 2. August 2026 gelten die Transparenzpflichten des Artikels 50.\n\nDas Unternehmen muss insbesondere Folgendes beachten:\n\nWenn ChatGPT als Kunden-Chatbot eingesetzt wird:\n\nKunden müssen grundsätzlich erkennen können, dass sie mit einer KI kommunizieren.\nEine Ausnahme besteht, wenn dies aus den Umständen offensichtlich ist.\n\nWenn KI-generierte Inhalte veröffentlicht werden:\n\nFür bestimmte KI-generierte oder manipulierte Inhalte gelten Kennzeichnungspflichten.\nInsbesondere bei KI-generierten Texten, die zur Information der Öffentlichkeit über Angelegenheiten von öffentlichem Interesse veröffentlicht werden, sind die gesetzlichen Voraussetzungen zu beachten.\n\nFür gewöhnliche interne Textentwürfe, E-Mails und Übersetzungen entsteht dagegen keine allgemeine Kennzeichnungspflicht.\n\n5. Datenschutz: Was darf in ChatGPT eingegeben werden?\n\nHier kommt zusätzlich die DSGVO ins Spiel.\n\nDas Unternehmen sollte verbindliche Regeln für die Verwendung von ChatGPT festlegen.\n\nBeispiele:\n\nDatenart\nEmpfehlung\nAllgemeine Marketingtexte\nUnproblematisch\nÖffentliche Unternehmensinformationen\nGrundsätzlich unproblematisch\nInterne Geschäftsunterlagen\nNur nach Prüfung der Vertraulichkeit\nKundennamen und Kontaktdaten\nDatenschutzrechtlich prüfen\nPersonalakten und Gehaltsdaten\nNicht ohne entsprechende Rechtsgrundlage und Schutzmaßnahmen eingeben\nGeschäftsgeheimnisse\nBesondere Vorsicht\n\nWichtig: Auch bei einer kostenpflichtigen ChatGPT-Version müssen Datenschutz, Vertraulichkeit und Zugriffsrechte berücksichtigt werden.\n\n6. Was sollte ein Unternehmen mit 50 Mitarbeitern konkret umsetzen?\n\nIch würde ein überschaubares Maßnahmenpaket mit sechs Punkten empfehlen:\n\nNr.\nMaßnahme\nAufwand\n1\nKI-Nutzungsrichtlinie erstellen\nGering\n2\nMitarbeiter über Chancen und Risiken von ChatGPT informieren\nGering\n3\nDatenschutzregeln für die Eingabe von Daten festlegen\nGering\n4\nErlaubte und nicht erlaubte KI-Anwendungen definieren\nGering\n5\nVerantwortlichen für KI-Nutzung benennen\nGering\n6\nKI-Anwendungen und deren Risikoklasse dokumentieren\nGering bis mittel\n\nDas ist eine pragmatische Umsetzung für ein Unternehmen, das ChatGPT überwiegend zur Unterstützung seiner Mitarbeiter verwendet.\n\nDie sechs Punkte sind eine Handlungsempfehlung und nicht sechs eigenständige gesetzliche Pflichten in genau dieser Form.\n\n7. Gibt es Sonderregelungen für Unternehmen mit 50 Mitarbeitern?\n\nNein, der EU AI Act enthält für die allgemeine Nutzung von ChatGPT keine besondere Mitarbeitergrenze von 50 Beschäftigten.\n\nDas bedeutet:\n\nKeine generelle Pflicht, einen KI-Beauftragten einzustellen.\nKeine generelle Pflicht zu einer externen KI-Zertifizierung.\nKeine generelle Pflicht zu einem umfangreichen KI-Managementsystem.\nKeine generelle Pflicht, sämtliche ChatGPT-Anwendungen bei einer Behörde zu registrieren.\n\nKleinere Unternehmen können von bestimmten Erleichterungen profitieren, insbesondere bei der Umsetzung von Anforderungen für Hochrisiko-KI. Die grundsätzliche Pflicht zur Förderung der KI-Kompetenz gilt aber auch für sie.\n\n8. Welche Unterlagen sollte das Unternehmen haben?\n\nIch würde folgende drei Dokumente erstellen:\n\nKI-Nutzungsrichtlinie: Regelt, welche Mitarbeiter ChatGPT wofür verwenden dürfen.\nKI-Schulungskonzept: Dokumentiert, wie Mitarbeiter über Risiken, Datenschutz und den richtigen Umgang mit ChatGPT informiert werden.\nKI-Anwendungsverzeichnis: Listet die verwendeten KI-Anwendungen, deren Zweck und die jeweilige Risikoeinstufung auf.\n\nDamit lässt sich eine nachvollziehbare Grundlage für die Einhaltung der relevanten Anforderungen schaffen.\n\n9. Meine Einschätzung für ein Unternehmen mit 50 Mitarbeitern\n\nWenn ChatGPT hauptsächlich für folgende Tätigkeiten eingesetzt wird:\n\nE-Mail-Kommunikation\nTexterstellung\nÜbersetzungen\nRecherche\nMarketing\nPräsentationen\nUnterstützung bei Excel und Büroarbeiten\n\ndann ist der regulatorische Aufwand durch den EU AI Act überschaubar.\n\nDie wichtigste gesetzliche Verpflichtung ist derzeit Artikel 4: Die Mitarbeiter müssen angemessen im Umgang mit KI geschult werden.\n\nOffizielle Informationsquellen\n\nEU-Kommission: Fragen und Antworten zur KI-Kompetenz\nEU-Kommission: Fragen und Antworten zum AI Act\nEU AI Act – vollständiger Verordnungstext\n\nEin sinnvoller nächster Schritt wäre eine konkrete AI-Act-Compliance-Vorlage für ein Unternehmen mit 50 Mitarbeitern. Diese könnte eine fertige KI-Nutzungsrichtlinie, eine kurze Mitarbeiterschulung und eine Checkliste zur Dokumentation enthalten.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "EU AI Act – vollständiger Verordnungstext",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/deu",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "Article 4: AI literacy | AI Act Service Desk",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4?trk=public_post_comment-text",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "Navigieren im KI-Gesetz | Gestaltung der digitalen Zukunft Europas",
+            "url": "https://digital-strategy.ec.europa.eu/de/faqs/navigating-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 4,
+            "label": "Transparenzpflichten nach Artikel 50 des KI-Gesetzes | Gestaltung der digitalen Zukunft Europas",
+            "url": "https://digital-strategy.ec.europa.eu/de/faqs/transparency-obligations-under-article-50-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 5,
+            "label": "AI Literacy - Questions & Answers | Shaping Europe’s digital future",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "footnote": false
+          },
+          {
+            "position": 6,
+            "label": "Navigating the AI Act | Shaping Europe’s digital future",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 7,
+            "label": "Transparency obligations under Article 50 of the AI Act | Shaping Europe’s digital future",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 8,
+            "label": "",
+            "url": "https://digital-strategy.ec.europa.eu/de/policies/enforcement-ai-act",
+            "footnote": true
+          },
+          {
+            "position": 9,
+            "label": "",
+            "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+            "footnote": true
+          },
+          {
+            "position": 10,
+            "label": "",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+            "footnote": true
+          },
+          {
+            "position": 11,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689",
+            "footnote": true
+          },
+          {
+            "position": 12,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AL_202601744",
+            "footnote": true
+          },
+          {
+            "position": 13,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          },
+          {
+            "position": 14,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?qid=1789425764105&uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          },
+          {
+            "position": 15,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CONSIL%3AST_10599_2026_INIT",
+            "footnote": true
+          },
+          {
+            "position": 16,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/en/ALL/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          }
+        ],
+        "entities": [],
+        "map": [],
+        "followUpForm": null,
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/deu",
+            "label": "EU AI Act – vollständiger Verordnungstext",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4?trk=public_post_comment-text",
+            "label": "Article 4: AI literacy | AI Act Service Desk",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 2
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/de/faqs/navigating-ai-act",
+            "label": "Navigieren im KI-Gesetz | Gestaltung der digitalen Zukunft Europas",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 3
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/de/faqs/transparency-obligations-under-article-50-ai-act",
+            "label": "Transparenzpflichten nach Artikel 50 des KI-Gesetzes | Gestaltung der digitalen Zukunft Europas",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 3,
+            "position": 4
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "label": "AI Literacy - Questions & Answers | Shaping Europe’s digital future",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 4,
+            "position": 5
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+            "label": "Navigating the AI Act | Shaping Europe’s digital future",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 5,
+            "position": 6
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+            "label": "Transparency obligations under Article 50 of the AI Act | Shaping Europe’s digital future",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 6,
+            "position": 7
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/de/policies/enforcement-ai-act",
+            "label": "",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 7,
+            "position": 8
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+            "label": "",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 8,
+            "position": 9
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+            "label": "",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 9,
+            "position": 10
+          },
+          {
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689",
+            "label": "",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 10,
+            "position": 11
+          },
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AL_202601744",
+            "label": "",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 11,
+            "position": 12
+          },
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727",
+            "label": "",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 12,
+            "position": 13
+          },
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?qid=1789425764105&uri=CELEX%3A02024R1689-20260727",
+            "label": "",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 13,
+            "position": 14
+          },
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CONSIL%3AST_10599_2026_INIT",
+            "label": "",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 14,
+            "position": 15
+          },
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/en/ALL/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727",
+            "label": "",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 15,
+            "position": 16
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  },
+  {
+    "id": "sme_duties",
+    "lang": "fr",
+    "country": "FR",
+    "prompt": "Qu'exige l'AI Act européen d'une entreprise de 50 salariés qui utilise ChatGPT ?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "AI Act européen : quelles obligations pour une entreprise de 50 salariés utilisant ChatGPT ?\n\nUne entreprise de 50 salariés qui utilise ChatGPT est concernée par l'AI Act (règlement européen sur l'intelligence artificielle), même si elle ne développe pas elle-même d'intelligence artificielle.\n\nLa bonne nouvelle : elle n'a pas les mêmes obligations qu'un éditeur qui commercialise un système d'IA. En revanche, elle doit mettre en place quelques mesures concrètes de gouvernance, de formation, de sécurité et de conformité.\n\nLe point essentiel est de distinguer trois situations :\n\nL'entreprise utilise ChatGPT pour ses besoins internes (rédaction, synthèse, traduction, recherche).\n\nElle utilise ChatGPT dans ses relations avec ses clients ou ses salariés.\n\nElle intègre ChatGPT dans un outil ou un service qu'elle commercialise.\n\nLes obligations ne sont pas exactement les mêmes.\n\n1. Les obligations principales\n\nA. Former les salariés à l'utilisation de l'IA\n\nObligation déjà applicable\n\nC'est l'une des obligations les plus importantes : l'article 4 de l'AI Act impose aux entreprises qui utilisent des systèmes d'IA de prendre des mesures pour développer les compétences de leurs collaborateurs en matière d'intelligence artificielle.\n\nPour une entreprise de 50 salariés, cela signifie notamment :\n\nSensibiliser les utilisateurs aux possibilités et aux limites de ChatGPT.\n\nExpliquer les risques d'erreurs, d'hallucinations et de biais.\n\nFormer les salariés à la confidentialité des informations transmises.\n\nApprendre à vérifier les réponses avant de les utiliser ou de les diffuser.\n\nAttention : le règlement n'impose ni une certification particulière, ni un nombre précis d'heures de formation, ni une formation obligatoire de chaque salarié à un niveau déterminé. Depuis la modification de l'article 4 en juillet 2026, il est expressément précisé qu'aucun niveau individuel spécifique n'est à garantir.\n\nB. Encadrer les usages de ChatGPT\n\nL'entreprise doit identifier les usages de l'IA et éviter les pratiques interdites par l'article 5.\n\nEn pratique, je recommande de formaliser une charte d'utilisation de ChatGPT qui précise :\n\nLes usages autorisés : rédaction, traduction, synthèse, aide à la recherche, etc.\n\nLes usages interdits ou soumis à validation.\n\nLes informations qui ne doivent jamais être transmises à ChatGPT.\n\nL'obligation de vérifier les résultats.\n\nLes situations dans lesquelles une validation humaine est nécessaire.\n\nIl est notamment important de ne pas utiliser l'IA pour des pratiques interdites telles que certaines formes de manipulation, de notation sociale ou d'exploitation des vulnérabilités des personnes.\n\nC. Protéger les données personnelles et confidentielles\n\nL'AI Act ne remplace pas le RGPD.\n\nL'entreprise doit donc également respecter les règles de protection des données personnelles lorsqu'elle utilise ChatGPT.\n\nQuelques précautions concrètes :\n\nNe pas transmettre de données personnelles de clients ou de salariés sans base juridique et garanties appropriées.\n\nNe pas transmettre de secrets commerciaux, contrats confidentiels, données financières sensibles ou informations stratégiques sans garanties adaptées.\n\nVérifier les conditions contractuelles et les paramètres de confidentialité de l'offre ChatGPT utilisée.\n\nDéfinir des règles de conservation et de partage des informations.\n\nIl faut notamment distinguer ChatGPT grand public, ChatGPT Business et ChatGPT Enterprise : leurs conditions de traitement des données ne sont pas identiques.\n\nD. Informer les utilisateurs lorsque ChatGPT interagit avec eux\n\nApplicable depuis le 2 août 2026\n\nL'article 50 prévoit des obligations de transparence.\n\nPar exemple :\n\nSi l'entreprise met en place un chatbot qui dialogue directement avec ses clients, ceux-ci doivent être informés qu'ils interagissent avec une IA, sauf si cela ressort clairement des circonstances.\n\nLes images, vidéos ou sons constituant des deepfakes doivent faire l'objet d'une information appropriée.\n\nCertains contenus générés par IA et diffusés au public sont également soumis à des obligations de transparence.\n\nEn revanche, une entreprise qui utilise simplement ChatGPT pour rédiger un courrier interne n'a pas à ajouter systématiquement une mention « rédigé par une IA ».\n\n2. Une entreprise de 50 salariés est-elle soumise à des obligations supplémentaires ?\n\nLa taille de l'entreprise est importante, mais elle ne constitue pas une exemption générale.\n\nUne entreprise de 50 salariés peut relever de la catégorie des PME, sous réserve notamment de ses liens capitalistiques et de ses données financières.\n\nElle bénéficie de mesures d'accompagnement et de certaines dispositions proportionnées aux PME, mais elle reste soumise aux obligations générales.\n\nIl faut surtout regarder les usages de l'IA.\n\nUtilisation de ChatGPT\n\nNiveau d'obligations\n\nRédaction de courriers et d'e-mails\n\nObligations générales\n\nTraduction et synthèse de documents\n\nObligations générales\n\nAide à la comptabilité\n\nObligations générales, avec vigilance sur les décisions automatisées\n\nRéponse automatique aux clients\n\nTransparence et obligations générales\n\nTri automatique des CV et sélection des candidats\n\nRisque d'IA à haut risque\n\nÉvaluation automatisée des salariés\n\nRisque d'IA à haut risque\n\nUn point important : utiliser ChatGPT pour aider un recruteur à rédiger une annonce n'est pas la même chose que l'utiliser pour classer automatiquement les candidats ou décider de leur recrutement.\n\nLes systèmes utilisés pour le recrutement et la gestion des travailleurs peuvent relever de la catégorie des systèmes à haut risque.\n\n3. Quelles sont les échéances à connaître ?\n\nAu 15 novembre 2026, voici le calendrier applicable :\n\nDate\n\nCe qui s'applique\n\n2 février 2025\n\nMaîtrise de l'IA (article 4) et interdictions de certaines pratiques\n\n2 août 2025\n\nObligations concernant les fournisseurs de modèles d'IA à usage général\n\n2 août 2026\n\nApplication de la majorité des règles, notamment la transparence\n\n2 décembre 2027\n\nApplication des règles relatives aux systèmes à haut risque de l'annexe III\n\n2 août 2028\n\nRègles concernant certains systèmes d'IA intégrés à des produits réglementés\n\n4. Concrètement, que doit faire votre entreprise ?\n\nPour une entreprise de 50 salariés qui utilise ChatGPT de façon classique, voici le plan d'action que je recommande.\n\nPlan de mise en conformité pratique\n\n0 / 8 actions réalisées\n\n0 %\n\nDésigner un référent interne pour les usages de l'IA.\n\nRecenser les usages de ChatGPT dans les différents services.\n\nRédiger une charte d'utilisation de l'IA et la communiquer aux salariés.\n\nOrganiser une sensibilisation ou une formation adaptée des utilisateurs.\n\nDéfinir les règles de confidentialité et de protection des données.\n\nVérifier les conditions contractuelles de l'abonnement ChatGPT.\n\nPrévoir une validation humaine pour les décisions importantes.\n\nInformer les clients lorsqu'ils interagissent avec un chatbot IA.\n\n5. Quelles sanctions en cas de non-respect ?\n\nL'AI Act prévoit des sanctions financières qui varient selon la nature de l'infraction :\n\nJusqu'à 35 millions d'euros ou 7 % du chiffre d'affaires annuel mondial pour certaines violations des pratiques interdites.\n\nJusqu'à 15 millions d'euros ou 3 % du chiffre d'affaires annuel mondial pour certaines autres violations.\n\nDes plafonds spécifiques et des règles de proportionnalité s'appliquent notamment aux PME.\n\nIl ne faut donc pas considérer que le faible effectif de l'entreprise la dispense de conformité.\n\n6. Mon conseil : commencer par une charte ChatGPT et une formation\n\nPour une entreprise de 50 salariés qui utilise ChatGPT pour des tâches administratives, commerciales, comptables ou rédactionnelles, je commencerais par trois documents :\n\nUne charte d'utilisation de l'IA : les règles que chaque salarié doit respecter.\n\nUne procédure de confidentialité : les données qui peuvent ou ne peuvent pas être communiquées à ChatGPT.\n\nUn support de sensibilisation des salariés : les bonnes pratiques, les risques et les obligations.\n\nCes documents constituent une bonne base pour démontrer une démarche de conformité, sans mettre en place une organisation disproportionnée.\n\nPour aller plus loin : votre situation\n\nIl y a une distinction importante que j'aimerais préciser pour vous donner une réponse réellement opérationnelle.\n\nComment votre entreprise utilise-t-elle principalement ChatGPT ?\n\nJe pourrai ainsi vous préparer un plan de conformité AI Act adapté à votre entreprise de 50 salariés, avec les obligations réellement applicables, les documents à produire et les actions à mener, sans vous imposer des contraintes qui ne vous concernent pas.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "AI Literacy - Questions & Answers",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "AI talent, skills and literacy",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "Regulation - EU - 2026/1744 - ES",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AL_202601744",
+            "footnote": false
+          },
+          {
+            "position": 4,
+            "label": "Fiche IA 4",
+            "url": "https://www.cnil.fr/sites/cnil/files/2025-03/tpe_pme_ficheia_4_les_precautions_0.pdf",
+            "footnote": false
+          },
+          {
+            "position": 5,
+            "label": "AI Act",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+            "footnote": false
+          },
+          {
+            "position": 6,
+            "label": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+            "footnote": false
+          },
+          {
+            "position": 7,
+            "label": "Guidelines on transparency obligations for providers and deployers of AI systems",
+            "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+            "footnote": false
+          },
+          {
+            "position": 8,
+            "label": "Transparency obligations under Article 50 of the AI Act",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 9,
+            "label": "Timeline for the Implementation of the EU AI Act",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act?trk=public_post_comment-text",
+            "footnote": false
+          },
+          {
+            "position": 10,
+            "label": "When does enforcement start?",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start",
+            "footnote": false
+          },
+          {
+            "position": 11,
+            "label": "The enforcement framework of the AI Act",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 12,
+            "label": "Frequently Asked Questions",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/faq",
+            "footnote": false
+          },
+          {
+            "position": 13,
+            "label": "",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/faq?trk=public_post_comment-text",
+            "footnote": true
+          },
+          {
+            "position": 14,
+            "label": "",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+            "footnote": true
+          },
+          {
+            "position": 15,
+            "label": "",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers",
+            "footnote": true
+          },
+          {
+            "position": 16,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CONSIL%3APE_30_2026_INIT",
+            "footnote": true
+          },
+          {
+            "position": 17,
+            "label": "",
+            "url": "https://www.europarl.europa.eu/RegData/etudes/ATAG/2025/772906/EPRS_ATA%282025%29772906_EN.pdf",
+            "footnote": true
+          }
+        ],
+        "entities": [],
+        "map": [],
+        "followUpForm": {
+          "questions": [
+            {
+              "label": "1. Les usages de ChatGPT",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Usage interne : rédaction, mails, synthèses, recherche",
+                  "value": "interne",
+                  "selected": true
+                },
+                {
+                  "label": "Relation clients : réponses, assistance, chatbot",
+                  "value": "clients",
+                  "selected": false
+                },
+                {
+                  "label": "Ressources humaines : recrutement, évaluation, gestion du personnel",
+                  "value": "rh",
+                  "selected": false
+                },
+                {
+                  "label": "Production : intégration de l'IA dans nos produits ou services",
+                  "value": "production",
+                  "selected": false
+                },
+                {
+                  "label": "Plusieurs de ces usages",
+                  "value": "mixed",
+                  "selected": false
+                }
+              ],
+              "name": "usage"
+            },
+            {
+              "label": "2. Quel abonnement utilisez-vous ?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "ChatGPT gratuit / Plus individuel",
+                  "value": "free",
+                  "selected": false
+                },
+                {
+                  "label": "ChatGPT Business",
+                  "value": "business",
+                  "selected": true
+                },
+                {
+                  "label": "ChatGPT Enterprise",
+                  "value": "enterprise",
+                  "selected": false
+                },
+                {
+                  "label": "API OpenAI intégrée à nos outils",
+                  "value": "api",
+                  "selected": false
+                },
+                {
+                  "label": "Je ne sais pas",
+                  "value": "unknown",
+                  "selected": false
+                }
+              ],
+              "name": "offer"
+            },
+            {
+              "label": "3. Votre secteur d'activité",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Industrie / production",
+                  "value": "industry",
+                  "selected": false
+                },
+                {
+                  "label": "Services / conseil",
+                  "value": "services",
+                  "selected": false
+                },
+                {
+                  "label": "Commerce / distribution",
+                  "value": "commerce",
+                  "selected": false
+                },
+                {
+                  "label": "Bâtiment / travaux publics",
+                  "value": "construction",
+                  "selected": false
+                },
+                {
+                  "label": "Autre",
+                  "value": "other",
+                  "selected": true
+                }
+              ],
+              "name": "sector"
+            }
+          ],
+          "submitLabel": "Valider",
+          "followUpPrompt": "Voici notre situation : usages de ChatGPT : {usage} ; abonnement : {offer} ; secteur : {sector}. Établissez notre plan de conformité AI Act adapté à une entreprise de 50 salariés, avec les documents nécessaires."
+        },
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "label": "AI Literacy - Questions & Answers",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+            "label": "AI talent, skills and literacy",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 2
+          },
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AL_202601744",
+            "label": "Regulation - EU - 2026/1744 - ES",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 3
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+            "label": "AI Act",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 5
+          },
+          {
+            "url": "https://www.cnil.fr/sites/cnil/files/2025-03/tpe_pme_ficheia_4_les_precautions_0.pdf",
+            "label": "Fiche IA 4",
+            "domain": "cnil.fr",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 4
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+            "label": "Guidelines on transparency obligations for providers and deployers of AI systems",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 7
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+            "label": "Transparency obligations under Article 50 of the AI Act",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 8
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+            "label": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 6
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+            "label": "AI Act",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 3,
+            "position": 5
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act?trk=public_post_comment-text",
+            "label": "Timeline for the Implementation of the EU AI Act",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 3,
+            "position": 9
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act?trk=public_post_comment-text",
+            "label": "Timeline for the Implementation of the EU AI Act",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 4,
+            "position": 9
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start",
+            "label": "When does enforcement start?",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 4,
+            "position": 10
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+            "label": "AI Act",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 4,
+            "position": 5
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/faq",
+            "label": "Frequently Asked Questions",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 5,
+            "position": 12
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+            "label": "The enforcement framework of the AI Act",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 5,
+            "position": 11
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  },
+  {
+    "id": "sme_duties",
+    "lang": "nl",
+    "country": "NL",
+    "prompt": "Wat vereist de EU AI Act van een bedrijf met 50 medewerkers dat ChatGPT gebruikt?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "Een bedrijf met 50 medewerkers dat ChatGPT gebruikt, moet rekening houden met de EU AI Act (Verordening (EU) 2024/1689). Het goede nieuws is dat de wet niet automatisch zware verplichtingen oplegt aan ieder bedrijf dat ChatGPT gebruikt.\n\nDe belangrijkste boodschap is: de verplichtingen hangen vooral af van waarvoor je ChatGPT inzet, niet van het aantal medewerkers.\n\nVoor een gemiddeld mkb-bedrijf dat ChatGPT gebruikt voor bijvoorbeeld e-mails, teksten, samenvattingen, brainstorms, marketing en administratieve werkzaamheden, zijn de verplichtingen relatief beperkt.\n\n1. Wat moet het bedrijf concreet regelen?\n\nA. Medewerkers opleiden in AI-gebruik\n\nDit is een wettelijke verplichting op grond van artikel 4 (AI-geletterdheid).\n\nHet bedrijf moet maatregelen nemen om ervoor te zorgen dat medewerkers die met ChatGPT werken voldoende inzicht ontwikkelen in AI en de risico's ervan.\n\nDenk aan een korte training over:\n\nWat ChatGPT wel en niet kan.\n\nHoe je goede opdrachten (prompts) formuleert.\n\nDat ChatGPT onjuiste informatie kan produceren.\n\nHoe je AI-uitkomsten controleert.\n\nWelke vertrouwelijke en persoonsgegevens je niet zomaar mag invoeren.\n\nWelke toepassingen wel en niet zijn toegestaan binnen het bedrijf.\n\nBelangrijk: sinds de wijziging van artikel 4 in juli 2026 hoeft het bedrijf geen specifiek kennisniveau voor iedere medewerker te garanderen. Het moet wel aantoonbaar maatregelen nemen om AI-kennis te ontwikkelen. Een verplicht examen of certificaat is er niet.\n\nB. Een intern AI-beleid opstellen\n\nDe AI Act schrijft niet voor dat ieder bedrijf een formeel AI-beleidsdocument moet hebben. Toch is het verstandig om de regels voor medewerkers schriftelijk vast te leggen.\n\nBijvoorbeeld:\n\nGebruik ChatGPT alleen voor zakelijke doeleinden waarvoor toestemming is gegeven.\n\nVoer geen vertrouwelijke klantgegevens, bedrijfsgeheimen of persoonsgegevens in zonder passende waarborgen.\n\nControleer AI-gegenereerde teksten, berekeningen en adviezen voordat je ze gebruikt.\n\nGebruik ChatGPT niet zelfstandig voor belangrijke personeelsbeslissingen.\n\nLaat een medewerker verantwoordelijk blijven voor het eindresultaat.\n\nGebruik bij voorkeur een centraal beheerde zakelijke ChatGPT-omgeving.\n\nC. Controleren waarvoor ChatGPT wordt gebruikt\n\nDit is een belangrijk onderdeel van de AI Act.\n\nNiet iedere toepassing heeft hetzelfde risiconiveau.\n\nGebruik van ChatGPT\n\nRisico volgens AI Act\n\nE-mails schrijven\n\nDoorgaans minimaal\n\nMarketingteksten maken\n\nDoorgaans minimaal\n\nVergaderingen samenvatten\n\nDoorgaans minimaal\n\nDocumenten analyseren\n\nAfhankelijk van toepassing\n\nKlantenservice ondersteunen\n\nAfhankelijk van toepassing\n\nSollicitanten automatisch beoordelen\n\nHoog risico\n\nMedewerkers beoordelen op prestaties\n\nKan hoog risico zijn\n\nVooral toepassingen rond werving, selectie, beoordeling en personeelsmanagement verdienen extra aandacht. Daar kunnen de regels voor hoog-risico-AI gelden.\n\nD. Transparant zijn over AI-gebruik\n\nVanaf 2 augustus 2026 gelden de belangrijkste transparantieregels van de AI Act.\n\nVoorbeelden:\n\nMensen moeten weten wanneer zij rechtstreeks met een AI-systeem communiceren, tenzij dat voor hen duidelijk is.\n\nBepaalde AI-gegenereerde of gemanipuleerde beelden, audio en video moeten als zodanig herkenbaar worden gemaakt.\n\nVoor bepaalde AI-gegenereerde teksten over onderwerpen van algemeen belang gelden openbaarmakingsregels.\n\nVoor gewoon intern gebruik van ChatGPT betekent dit niet dat iedere e-mail of ieder document een AI-label moet krijgen.\n\n2. Wat geldt specifiek voor een bedrijf met 50 medewerkers?\n\nEen bedrijf met 50 medewerkers valt doorgaans binnen de categorie mkb, mits ook aan de omzet- en balanstotaalcriteria wordt voldaan.\n\nEr geldt geen algemene vrijstelling van de AI Act voor mkb-bedrijven.\n\nWel is het belangrijk onderscheid te maken:\n\n50 medewerkers: geen bijzondere verplichtingen uitsluitend vanwege dit aantal.\n\nRegulier ChatGPT-gebruik: relatief beperkte AI Act-verplichtingen.\n\nAI inzetten voor personeelsselectie of beoordeling: mogelijk uitgebreide hoog-risicoverplichtingen.\n\nZelf AI ontwikkelen of als eigen AI-product aanbieden: mogelijk aanvullende verplichtingen als aanbieder.\n\n3. Wat moet je daarnaast regelen vanuit de AVG?\n\nDe AVG (GDPR) blijft gewoon gelden naast de AI Act.\n\nVoor het gebruik van ChatGPT betekent dit onder andere:\n\nBeoordeel welke persoonsgegevens medewerkers in ChatGPT mogen invoeren.\n\nZorg voor een geldige rechtsgrond wanneer persoonsgegevens worden verwerkt.\n\nControleer de afspraken met de leverancier over gegevensverwerking.\n\nBeperk de toegang tot zakelijke AI-accounts.\n\nBeoordeel of een DPIA (gegevensbeschermingseffectbeoordeling) noodzakelijk is bij risicovolle verwerkingen.\n\nLet op: de AI Act en de AVG zijn twee verschillende wetten. Het voldoen aan de AI Act betekent niet automatisch dat je ook aan de AVG voldoet.\n\n4. Praktische checklist voor het bedrijf\n\nVoor een bedrijf van 50 medewerkers dat ChatGPT gebruikt voor normale kantoorwerkzaamheden zou ik de volgende aanpak adviseren:\n\nAI Act-compliancecheck\n\n0/9 afgerond\n\nInventariseren welke afdelingen en medewerkers ChatGPT gebruiken\n\nVastleggen waarvoor ChatGPT zakelijk mag worden ingezet\n\nEen beknopt AI-gebruiksbeleid opstellen\n\nMedewerkers voorlichten over AI en de risico's\n\nAfspraken maken over vertrouwelijke informatie en persoonsgegevens\n\nMenselijke controle op belangrijke AI-uitkomsten organiseren\n\nControleren of het gebruikte ChatGPT-abonnement passend is voor zakelijk gebruik\n\nBeoordelen of er toepassingen zijn met een hoog risicoprofiel\n\nDe afspraken en opleidingsactiviteiten documenteren\n\n5. Wanneer gelden de verplichtingen?\n\nDe belangrijkste data op basis van de actuele regelgeving:\n\nDatum\n\nWat geldt?\n\n2 februari 2025\n\nAI-geletterdheid en verboden AI-toepassingen\n\n2 augustus 2025\n\nRegels voor aanbieders van algemene AI-modellen\n\n2 augustus 2026\n\nMeeste overige regels en transparantieverplichtingen\n\n2 december 2027\n\nRegels voor bepaalde hoog-risico-AI-systemen\n\nDe planning is aangepast door de Europese Digital Omnibus-verordening van 2026.\n\nOfficiële informatie: Europese Commissie – Navigating the AI Act .\n\n6. Mijn conclusie\n\nVoor een bedrijf met 50 medewerkers dat ChatGPT voornamelijk gebruikt voor tekstverwerking, marketing, administratie, communicatie en productiviteit, zou ik beginnen met drie concrete zaken:\n\nEen beknopt AI-beleid van ongeveer 2 à 4 pagina's.\n\nEen praktische AI-training voor de medewerkers.\n\nEen overzicht van toegestane en niet-toegestane toepassingen.\n\nDaarmee leg je een goede basis voor naleving van de AI Act. Uiteraard moet je ook de AVG naleven.\n\nEen belangrijke vervolgvraag: waarvoor wordt ChatGPT binnen het bedrijf daadwerkelijk gebruikt?\n\nDat maakt namelijk een groot verschil voor de verplichtingen. Ik kan op basis daarvan een concrete compliance-check maken, gericht op een bedrijf met 50 medewerkers, inclusief wat wettelijk verplicht is, wat verstandig is en wat je niet hoeft te regelen.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "Article 4: AI literacy",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4?trk=public_post_comment-text",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "AI Literacy - Questions & Answers",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "Navigating the AI Act",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 4,
+            "label": "Timeline for the Implementation of the EU AI Act",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act?trk=public_post_comment-text",
+            "footnote": false
+          },
+          {
+            "position": 5,
+            "label": "Timeline - Artificial intelligence",
+            "url": "https://www.consilium.europa.eu/en/policies/artificial-intelligence-act/timeline-artificial-intelligence/",
+            "footnote": false
+          },
+          {
+            "position": 6,
+            "label": "Regulation - EU - 2026/1744 - EN",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1791221420153&uri=CELEX%3A32026R1744",
+            "footnote": false
+          },
+          {
+            "position": 7,
+            "label": "",
+            "url": "https://aicontext.eu/en/eu-ai-act/article/4",
+            "footnote": true
+          },
+          {
+            "position": 8,
+            "label": "",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+            "footnote": true
+          },
+          {
+            "position": 9,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689",
+            "footnote": true
+          },
+          {
+            "position": 10,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+            "footnote": true
+          },
+          {
+            "position": 11,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng/pdf",
+            "footnote": true
+          },
+          {
+            "position": 12,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng/pdf",
+            "footnote": true
+          },
+          {
+            "position": 13,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32024R1689",
+            "footnote": true
+          },
+          {
+            "position": 14,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1744",
+            "footnote": true
+          },
+          {
+            "position": 15,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1742827281463&uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          },
+          {
+            "position": 16,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          },
+          {
+            "position": 17,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/ENG/TXT/PDF/?uri=OJ%3AL_202601744",
+            "footnote": true
+          },
+          {
+            "position": 18,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/en/ALL/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          }
+        ],
+        "entities": [],
+        "map": [],
+        "followUpForm": null,
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "label": "AI Literacy - Questions & Answers",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 2
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4?trk=public_post_comment-text",
+            "label": "Article 4: AI literacy",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act?trk=public_post_comment-text",
+            "label": "Timeline for the Implementation of the EU AI Act",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 4
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+            "label": "Navigating the AI Act",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 3
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act?trk=public_post_comment-text",
+            "label": "Timeline for the Implementation of the EU AI Act",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 4
+          },
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1791221420153&uri=CELEX%3A32026R1744",
+            "label": "Regulation - EU - 2026/1744 - EN",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 6
+          },
+          {
+            "url": "https://www.consilium.europa.eu/en/policies/artificial-intelligence-act/timeline-artificial-intelligence/",
+            "label": "Timeline - Artificial intelligence",
+            "domain": "consilium.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 5
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  },
+  {
+    "id": "best_tool",
+    "lang": "de",
+    "country": "DE",
+    "prompt": "Was ist das beste Tool zur Einhaltung des EU AI Act für KMU?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "Für kleine und mittlere Unternehmen (KMU) würde ich 2026 vor allem einfache, bezahlbare KI-Compliance-Tools mit automatischer Risikoklassifizierung, Dokumentation und Mitarbeiterschulungen empfehlen.\n\nMeine Empfehlung: Nicht sofort eine teure Enterprise-Lösung kaufen. Es gibt inzwischen spezialisierte Tools, die deutlich besser auf KMU zugeschnitten sind.\n\n1. Die besten Tools im Vergleich\n\nTool\nStärken\nPreis laut Anbieter\nActScope\nRisikoklassifizierung, Dokumentation, Fristenmanagement\nAb 39 €/Monat\nSetAIComply\nRisikomanagement, Dokumentation, DPIA, Schulungen\nAb 39 €/Monat\nCompaia\nKI-Inventar, interne Richtlinien, Mitarbeiterschulungen\nKostenlose Ersteinschätzung\nLegalithm\nSelbstbewertung und Compliance-Dokumentation\nKostenlose Selbstbewertung\nCredo AI\nUmfassendes KI-Governance-Management\nAuf Anfrage\n\nPreise und Funktionsumfang beruhen auf öffentlich verfügbaren Anbieterangaben und können sich ändern.\n\n2. Meine Favoriten\n\n🥇 ActScope – für unkomplizierten Einstieg\n\nActScope\n\nBesonders interessant für KMU, die:\n\nihre eingesetzten KI-Systeme erfassen möchten,\neine Risikoklassifizierung benötigen,\nnotwendige Compliance-Dokumente erstellen möchten,\nFristen und Verpflichtungen überwachen wollen.\n\nDer kostenlose Risikoklassifizierer ist ein guter Einstieg.\n\n🥈 SetAIComply – für umfassendere Compliance\n\nSetAIComply\n\nInteressant, wenn du mehr als nur eine Bestandsaufnahme benötigst:\n\nKI-Risikomanagement\nDokumentation nach EU AI Act\nDatenschutz-Folgenabschätzungen\nMitarbeiterschulungen\nZuordnung regulatorischer Anforderungen\n\nBesonders interessant für Unternehmen, die KI systematisch einsetzen.\n\n🥉 Compaia – für den praktischen KMU-Alltag\n\nCompaia\n\nSchwerpunkt:\n\nKI-Inventar\nKI-Nutzungsrichtlinien\nRisikobewertung\nMitarbeiterschulungen\nNachweisbare Compliance-Maßnahmen\n\nInteressant für Unternehmen, die beispielsweise ChatGPT, Microsoft Copilot oder Gemini intern einsetzen.\n\n3. Was muss ein KMU überhaupt erfüllen?\n\nDer EU AI Act gilt nicht nur für große Technologieunternehmen, sondern grundsätzlich auch für KMU, die KI-Systeme in der EU einsetzen.\n\nWichtige Anforderungen sind:\n\nAnforderung\nRechtsgrundlage\nKI-Kompetenz der Mitarbeiter\nArt. 4\nVerbotene KI-Praktiken vermeiden\nArt. 5\nKI-Systeme und Risiken bewerten\nJe nach Rolle und Risikoklasse\nTransparenz bei bestimmten KI-Anwendungen\nArt. 50\nTechnische Dokumentation bei Hochrisiko-KI\nArt. 11\nMenschliche Aufsicht bei Hochrisiko-KI\nArt. 14\n\nWichtig: Nicht jedes Unternehmen benötigt den gleichen Umfang an Compliance. Die meisten KI-Anwendungen fallen in die Kategorie mit minimalem Risiko.\n\nAktueller Zeitplan:\n\nSeit 2. Februar 2025: KI-Kompetenz und Verbote bestimmter KI-Praktiken.\nSeit 2. August 2026: Transparenzpflichten nach Artikel 50.\nAb 2. Dezember 2027: Vorgesehene Anwendung der Regeln für bestimmte Hochrisiko-KI-Systeme.\nAb 2. August 2028: Regeln für bestimmte Hochrisiko-KI-Systeme in regulierten Produkten.\n\n4. Mein konkreter Rat\n\nIch würde folgendermaßen vorgehen:\n\nKostenlos starten: Den offiziellen EU AI Act Compliance Checker verwenden.\nKI-Inventar erstellen: Alle verwendeten KI-Anwendungen im Unternehmen erfassen.\nRisiken klassifizieren: Prüfen, welche gesetzlichen Anforderungen gelten.\nCompliance dokumentieren: Richtlinien, Verantwortlichkeiten und Nachweise erstellen.\nMitarbeiter schulen: KI-Kompetenz nach Artikel 4 sicherstellen.\n\nDen offiziellen Prüfer findest du hier:\n\nEU AI Act Compliance Checker der Europäischen Kommission\n\n5. Drei Fragen, damit ich dir das beste Tool empfehlen kann\n\nDie optimale Lösung hängt stark von der Unternehmensgröße und dem Einsatzzweck ab.\n\nWie groß ist das Unternehmen?\n\nA: 1–10 Mitarbeiter\nB: 10–50 Mitarbeiter\nC: 50–250 Mitarbeiter\n\nWie wird KI eingesetzt?\n\nA: Hauptsächlich ChatGPT, Copilot, Gemini und ähnliche Tools.\nB: KI in Geschäftsprozessen (HR, Vertrieb, Marketing, Kundenservice).\nC: Wir entwickeln selbst KI-Produkte oder KI-Software.\nD: Eine Kombination aus allem.\n\nWas ist dein Ziel?\n\nA: Möglichst günstig die gesetzlichen Anforderungen erfüllen.\nB: Eine Software, die möglichst viel automatisch erledigt.\nC: Ein vollständiges KI-Compliance-Management inklusive Dokumentation, Schulungen und Risikomanagement.\n\nDann kann ich dir eine konkrete Empfehlung geben, welches Tool für dein Unternehmen das beste Preis-Leistungs-Verhältnis bietet – einschließlich möglicher Alternativen aus Deutschland und der EU.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "Best EU AI Act Compliance Software for SMEs (2026) | ActScope",
+            "url": "https://actscope.eu/guide/best-eu-ai-act-compliance-software-for-smes",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "EU AI Act Compliance Software Tools Compared (2026)",
+            "url": "https://www.legalithm.com/en/blog/eu-ai-act-compliance-software-tools-compared-2026",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "Best EU AI Act Compliance Software for Startups (2026)",
+            "url": "https://www.legalithm.com/en/blog/best-eu-ai-act-compliance-software-startups-smes",
+            "footnote": false
+          },
+          {
+            "position": 4,
+            "label": "EU AI Act compliance software for SMEs | ActScope",
+            "url": "https://actscope.eu/eu-ai-act-compliance-for-smes",
+            "footnote": false
+          },
+          {
+            "position": 5,
+            "label": "compaia - AI Act compliance assistant, AI policy and training",
+            "url": "https://compaia.eu/",
+            "footnote": false
+          },
+          {
+            "position": 6,
+            "label": "ActScope",
+            "url": "https://actscope.eu/",
+            "footnote": false
+          },
+          {
+            "position": 7,
+            "label": "SetAIComply",
+            "url": "https://setaicomply.com/",
+            "footnote": false
+          },
+          {
+            "position": 8,
+            "label": "Navigating the AI Act | Shaping Europe’s digital future",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 9,
+            "label": "Timeline for the Implementation of the EU AI Act | AI Act Service Desk",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act?trk=public_post_comment-text",
+            "footnote": false
+          },
+          {
+            "position": 10,
+            "label": "EU AI Act Compliance Checker der Europäischen Kommission",
+            "url": "https://ai-act-service-desk.ec.europa.eu/de/eu-pruefer-fuer-die-einhaltung-der-ki-verordnung?trk=public_post_comment-text",
+            "footnote": false
+          }
+        ],
+        "entities": [
+          {
+            "type": "software",
+            "name": "ActScope"
+          },
+          {
+            "type": "software",
+            "name": "SetAIComply"
+          },
+          {
+            "type": "software",
+            "name": "Compaia"
+          },
+          {
+            "type": "software",
+            "name": "Legalithm"
+          },
+          {
+            "type": "software",
+            "name": "Credo AI"
+          }
+        ],
+        "map": [],
+        "followUpForm": null,
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://actscope.eu/guide/best-eu-ai-act-compliance-software-for-smes",
+            "label": "Best EU AI Act Compliance Software for SMEs (2026) | ActScope",
+            "domain": "actscope.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://www.legalithm.com/en/blog/eu-ai-act-compliance-software-tools-compared-2026",
+            "label": "EU AI Act Compliance Software Tools Compared (2026)",
+            "domain": "legalithm.com",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 2
+          },
+          {
+            "url": "https://www.legalithm.com/en/blog/best-eu-ai-act-compliance-software-startups-smes",
+            "label": "Best EU AI Act Compliance Software for Startups (2026)",
+            "domain": "legalithm.com",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 3
+          },
+          {
+            "url": "https://actscope.eu/eu-ai-act-compliance-for-smes",
+            "label": "EU AI Act compliance software for SMEs | ActScope",
+            "domain": "actscope.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 3,
+            "position": 4
+          },
+          {
+            "url": "https://compaia.eu/",
+            "label": "compaia - AI Act compliance assistant, AI policy and training",
+            "domain": "compaia.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 4,
+            "position": 5
+          },
+          {
+            "url": "https://actscope.eu/",
+            "label": "ActScope",
+            "domain": "actscope.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 5,
+            "position": 6
+          },
+          {
+            "url": "https://setaicomply.com/",
+            "label": "SetAIComply",
+            "domain": "setaicomply.com",
+            "type": "groupedWebpage",
+            "citationPillId": 6,
+            "position": 7
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+            "label": "Navigating the AI Act | Shaping Europe’s digital future",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 7,
+            "position": 8
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act?trk=public_post_comment-text",
+            "label": "Timeline for the Implementation of the EU AI Act | AI Act Service Desk",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 8,
+            "position": 9
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/de/eu-pruefer-fuer-die-einhaltung-der-ki-verordnung?trk=public_post_comment-text",
+            "label": "EU AI Act Compliance Checker der Europäischen Kommission",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 9,
+            "position": 10
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  },
+  {
+    "id": "best_tool",
+    "lang": "fr",
+    "country": "FR",
+    "prompt": "Quel est le meilleur outil de conformité à l'AI Act pour les PME ?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "Pour une PME française, je recommande de privilégier un outil simple, spécialisé dans l'AI Act européen, avec un tarif transparent et une documentation exploitable en cas de contrôle.\n\nMon premier conseil : ne choisissez pas nécessairement la plateforme la plus complète. Une PME qui utilise ChatGPT, Microsoft Copilot ou des fonctionnalités d'IA dans ses logiciels n'a pas les mêmes besoins qu'une entreprise qui développe et commercialise ses propres systèmes d'IA.\n\nMon comparatif des meilleurs outils en 2026\n\nOutil\n\nPour quelle PME ?\n\nTarif indicatif\n\nActScope\n\nConformité AI Act, classification et génération documentaire\n\nDès 39 €/mois\n\nSetAIComply\n\nPME souhaitant une couverture assez complète\n\nDès 39 €/mois\n\nTransparIA\n\nPME françaises, agences et SaaS : transparence et registre IA\n\nGratuit, puis 49 €/mois\n\nDastra\n\nPME ayant déjà une démarche RGPD et un DPO\n\nSur devis\n\nWitik\n\nPME souhaitant centraliser RGPD et conformité IA\n\nSur devis\n\nSources comparatives : Attention, certains comparatifs sont publiés par les éditeurs eux-mêmes : les tarifs et fonctionnalités sont à vérifier.\n\nMon classement par besoin\n\n1. ActScope – meilleur choix généraliste à tester\n\nPour cartographier les systèmes IA, classifier les risques, générer des documents et suivre les obligations. Intéressant pour une PME sans service juridique interne.\n\nSite officiel\n\n2. SetAIComply – pour une conformité plus approfondie\n\nIntéressant pour les entreprises qui développent ou intègrent de l'IA et ont besoin de documentation technique, d'analyses d'impact et de suivi des risques.\n\nSite officiel\n\n3. TransparIA – pour les petites entreprises françaises\n\nParticulièrement intéressant pour le registre des usages IA, les mentions de transparence, les preuves et la gestion des obligations de l'article 50.\n\nSite officiel\n\n4. Dastra – pour combiner RGPD et AI Act\n\nÀ considérer si vous avez déjà un DPO ou un responsable conformité et souhaitez mutualiser les outils.\n\nSite officiel\n\nLes fonctionnalités et positionnements sont issus des comparatifs disponibles en novembre 2026.\n\nAttention : avez-vous réellement besoin d'un logiciel payant ?\n\nDepuis le 2 février 2025, les entreprises doivent notamment prendre des mesures pour assurer la maîtrise de l'IA par leur personnel (article 4). Depuis le 2 août 2026, certaines obligations de transparence de l'article 50 sont également applicables.\n\nLa Commission européenne propose également un outil gratuit pour commencer à déterminer vos obligations :\n\nAI Act Service Desk – Commission européenne .\n\nPour vous recommander le meilleur outil, j'ai trois questions\n\nJe peux affiner le choix en fonction de votre entreprise.\n\nAvec ces réponses, je pourrai vous proposer un choix précis, plutôt qu'un logiciel surdimensionné ou inadapté à votre PME.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "Best EU AI Act Compliance Software for SMEs (2026)",
+            "url": "https://actscope.eu/guide/best-eu-ai-act-compliance-software-for-smes",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "Comparatif 2026 des logiciels de conformité AI Act",
+            "url": "https://www.transparia.fr/ressources/ai-act/comparatif-logiciels-ai-act",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "Site officiel",
+            "url": "https://actscope.eu/",
+            "footnote": false
+          },
+          {
+            "position": 4,
+            "label": "Site officiel",
+            "url": "https://setaicomply.com/",
+            "footnote": false
+          },
+          {
+            "position": 5,
+            "label": "Site officiel",
+            "url": "https://www.transparia.fr/",
+            "footnote": false
+          },
+          {
+            "position": 6,
+            "label": "Site officiel",
+            "url": "https://www.dastra.eu/",
+            "footnote": false
+          },
+          {
+            "position": 7,
+            "label": "Timeline for the Implementation of the EU AI Act",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act?trk=public_post_comment-text",
+            "footnote": false
+          },
+          {
+            "position": 8,
+            "label": "Logiciel AI Act pour PME et ETI : lequel choisir ?",
+            "url": "https://www.kertos.io/fr/compliance-hub/logiciel-ai-act-pme-eti",
+            "footnote": false
+          },
+          {
+            "position": 9,
+            "label": "AI Act Service Desk – Commission européenne",
+            "url": "https://ai-act-service-desk.ec.europa.eu/",
+            "footnote": false
+          },
+          {
+            "position": 10,
+            "label": "",
+            "url": "https://www.aioact.com/",
+            "footnote": true
+          },
+          {
+            "position": 11,
+            "label": "",
+            "url": "https://complee.eu/compliance-checker",
+            "footnote": true
+          },
+          {
+            "position": 12,
+            "label": "",
+            "url": "https://aidpia.pro/",
+            "footnote": true
+          },
+          {
+            "position": 13,
+            "label": "",
+            "url": "https://www.cpdpconferences.org/call-for-papers-2026",
+            "footnote": true
+          },
+          {
+            "position": 14,
+            "label": "",
+            "url": "https://app.veritome.eu/blog/best-eu-ai-act-compliance-software-2026",
+            "footnote": true
+          },
+          {
+            "position": 15,
+            "label": "",
+            "url": "https://dev.themio.ai/fr/blog/meilleurs-outils-conformite-ai-act-pme-2026",
+            "footnote": true
+          },
+          {
+            "position": 16,
+            "label": "",
+            "url": "https://kla.digital/fr/blog/best-eu-ai-act-compliance-software-2026",
+            "footnote": true
+          },
+          {
+            "position": 17,
+            "label": "",
+            "url": "https://unadhi.com/guides/eu-ai-act-compliance-tools-small-business-2026.html",
+            "footnote": true
+          },
+          {
+            "position": 18,
+            "label": "",
+            "url": "https://veritome.eu/blog/best-eu-ai-act-compliance-software-2026",
+            "footnote": true
+          },
+          {
+            "position": 19,
+            "label": "",
+            "url": "https://veritome.eu/blog/gpai-obligations-under-the-eu-ai-act-articles-53-and-55-explained",
+            "footnote": true
+          },
+          {
+            "position": 20,
+            "label": "",
+            "url": "https://www.legalithm.com/en/blog/best-eu-ai-act-compliance-software-startups-smes",
+            "footnote": true
+          },
+          {
+            "position": 21,
+            "label": "",
+            "url": "https://www.legalithm.com/en/blog/eu-ai-act-compliance-software-tools-compared-2026",
+            "footnote": true
+          },
+          {
+            "position": 22,
+            "label": "",
+            "url": "https://www.praxikon.com/en/posts/best-eu-ai-act-compliance-tools-software-2026",
+            "footnote": true
+          }
+        ],
+        "entities": [
+          {
+            "type": "software",
+            "name": "ActScope"
+          },
+          {
+            "type": "software",
+            "name": "SetAIComply"
+          },
+          {
+            "type": "software",
+            "name": "TransparIA"
+          },
+          {
+            "type": "software",
+            "name": "Dastra"
+          },
+          {
+            "type": "software",
+            "name": "Witik"
+          }
+        ],
+        "map": [],
+        "followUpForm": {
+          "questions": [
+            {
+              "label": "1. Quelle est la taille de votre entreprise ?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "1 à 9 salariés",
+                  "value": "1 à 9 salariés",
+                  "selected": false
+                },
+                {
+                  "label": "10 à 49 salariés",
+                  "value": "10 à 49 salariés",
+                  "selected": true
+                },
+                {
+                  "label": "50 à 249 salariés",
+                  "value": "50 à 249 salariés",
+                  "selected": false
+                },
+                {
+                  "label": "250 salariés ou plus",
+                  "value": "250 salariés ou plus",
+                  "selected": false
+                }
+              ],
+              "name": "size"
+            },
+            {
+              "label": "2. Comment utilisez-vous l'intelligence artificielle ?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Nous utilisons ChatGPT, Copilot et d'autres outils IA",
+                  "value": "Nous utilisons ChatGPT, Copilot et d'autres outils IA",
+                  "selected": true
+                },
+                {
+                  "label": "Nous intégrons l'IA dans nos processus métier",
+                  "value": "Nous intégrons l'IA dans nos processus métier",
+                  "selected": false
+                },
+                {
+                  "label": "Nous développons ou commercialisons des solutions IA",
+                  "value": "Nous développons ou commercialisons des solutions IA",
+                  "selected": false
+                },
+                {
+                  "label": "Les deux : utilisation et développement de l'IA",
+                  "value": "Les deux : utilisation et développement de l'IA",
+                  "selected": false
+                }
+              ],
+              "name": "usage"
+            },
+            {
+              "label": "3. Quel est votre objectif prioritaire ?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Être en conformité sans mobiliser trop de ressources",
+                  "value": "Être en conformité sans mobiliser trop de ressources",
+                  "selected": true
+                },
+                {
+                  "label": "Réaliser un audit complet de conformité",
+                  "value": "Réaliser un audit complet de conformité",
+                  "selected": false
+                },
+                {
+                  "label": "Générer automatiquement les documents réglementaires",
+                  "value": "Générer automatiquement les documents réglementaires",
+                  "selected": false
+                },
+                {
+                  "label": "Centraliser RGPD, AI Act et cybersécurité",
+                  "value": "Centraliser RGPD, AI Act et cybersécurité",
+                  "selected": false
+                }
+              ],
+              "name": "goal"
+            },
+            {
+              "label": "Budget mensuel envisagé",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Gratuit uniquement",
+                  "value": "Gratuit uniquement",
+                  "selected": false
+                },
+                {
+                  "label": "Moins de 100 €/mois",
+                  "value": "Moins de 100 €/mois",
+                  "selected": true
+                },
+                {
+                  "label": "100 à 300 €/mois",
+                  "value": "100 à 300 €/mois",
+                  "selected": false
+                },
+                {
+                  "label": "Plus de 300 €/mois",
+                  "value": "Plus de 300 €/mois",
+                  "selected": false
+                }
+              ],
+              "name": "budget"
+            }
+          ],
+          "submitLabel": "Obtenir ma recommandation",
+          "followUpPrompt": "Voici mon profil pour choisir un outil AI Act : taille : {size} ; usage : {usage} ; objectif : {goal} ; budget : {budget}. Recommande-moi le meilleur outil et explique pourquoi."
+        },
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://actscope.eu/guide/best-eu-ai-act-compliance-software-for-smes",
+            "label": "Best EU AI Act Compliance Software for SMEs (2026)",
+            "domain": "actscope.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://www.transparia.fr/ressources/ai-act/comparatif-logiciels-ai-act",
+            "label": "Comparatif 2026 des logiciels de conformité AI Act",
+            "domain": "transparia.fr",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 2
+          },
+          {
+            "url": "https://actscope.eu/guide/best-eu-ai-act-compliance-software-for-smes",
+            "label": "Best EU AI Act Compliance Software for SMEs (2026)",
+            "domain": "actscope.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 1
+          },
+          {
+            "url": "https://www.transparia.fr/ressources/ai-act/comparatif-logiciels-ai-act",
+            "label": "Comparatif 2026 des logiciels de conformité AI Act",
+            "domain": "transparia.fr",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 2
+          },
+          {
+            "url": "https://www.kertos.io/fr/compliance-hub/logiciel-ai-act-pme-eti",
+            "label": "Logiciel AI Act pour PME et ETI : lequel choisir ?",
+            "domain": "kertos.io",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 8
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act?trk=public_post_comment-text",
+            "label": "Timeline for the Implementation of the EU AI Act",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 7
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  },
+  {
+    "id": "best_tool",
+    "lang": "nl",
+    "country": "NL",
+    "prompt": "Wat is de beste EU AI Act compliance tool voor het mkb?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "Voor de meeste Nederlandse mkb-bedrijven zou ik kiezen voor een gespecialiseerde EU AI Act-compliance tool die risico's classificeert, verplichtingen inzichtelijk maakt en automatisch documentatie opbouwt. Je hebt meestal geen duur enterpriseplatform zoals OneTrust of IBM nodig.\n\nMijn voorlopige shortlist voor 2026 bestaat uit ActScope, SetAIComply en Veritome.\n\nBelangrijk: de beste keuze hangt vooral af van de vraag of je AI alleen gebruikt binnen je bedrijf, of zelf AI-software ontwikkelt of verkoopt.\n\nMijn top 5 voor het mkb\n\nTool\n\nMijn oordeel\n\nVanafprijs\n\nActScope\n\nBeste allround mkb-keuze\n\n€39/mnd\n\nSetAIComply\n\nMeest uitgebreide functionaliteit\n\n€39/mnd\n\nAI-Act-Kompass\n\nInteressant voor kleine budgetten\n\n€9,99/mnd\n\nVeritome\n\nInteressant voor uitgebreidere governance\n\n€79/mnd\n\nComplipath\n\nInteressant voor controleerbare classificaties\n\nCirca $499/mnd\n\nPrijzen zijn indicaties uit gepubliceerde vergelijkingen en kunnen veranderen.\n\nMijn aanbeveling per tool\n\n1. ActScope — beste allround keuze\n\nAI-risicoclassificatie\n\nDocumenten en actieplannen\n\nAI-register en verplichtingen volgen\n\nGeschikt voor bedrijven zonder eigen complianceafdeling\n\nWebsite: ActScope\n\n2. SetAIComply — beste voor uitgebreidere compliance\n\nRisicobeoordelingen\n\nAnnex IV-documentatie\n\nDPIA en FRIA-ondersteuning\n\nAI-geletterdheid en ISO 42001-koppelingen\n\nWebsite: SetAIComply\n\n3. AI-Act-Kompass — beste budgetoptie\n\nRisicoclassificatie\n\nCompliance-checklists\n\nDocumenttemplates\n\nAI-geletterdheid registreren\n\nWebsite: AI-Act-Kompass\n\nWaar moet je op letten?\n\nEen goede tool moet minimaal ondersteuning bieden voor:\n\nAI-inventaris: welke AI-systemen gebruikt je bedrijf?\n\nRisicoclassificatie: welke verplichtingen gelden per toepassing?\n\nArtikel 4: AI-geletterdheid van medewerkers aantoonbaar maken.\n\nArtikel 50: transparantieverplichtingen vastleggen.\n\nDocumentatie: beleid, risicoanalyses en bewijsstukken.\n\nAVG/GDPR: samenhang met bestaande privacyverplichtingen.\n\nLet op: software maakt je niet automatisch compliant. De organisatie blijft verantwoordelijk voor de beoordeling en uitvoering.\n\nIk wil je een gerichter advies geven\n\nEr is namelijk een groot verschil tussen een mkb-bedrijf dat ChatGPT en Copilot gebruikt en een bedrijf dat zelf AI-producten ontwikkelt.\n\nWat voor soort mkb-bedrijf wil je compliant maken?\n\nDan kan ik je een veel concretere aanbeveling geven, inclusief welke tool de beste prijs-kwaliteitverhouding heeft en welke je beter niet kunt aanschaffen.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "Best EU AI Act Compliance Software for SMEs (2026)",
+            "url": "https://actscope.eu/guide/best-eu-ai-act-compliance-software-for-smes",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "EU AI Act compliance tools for small businesses in 2026: honest comparison",
+            "url": "https://unadhi.com/guides/eu-ai-act-compliance-tools-small-business-2026.html",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "ActScope",
+            "url": "https://actscope.eu/",
+            "footnote": false
+          },
+          {
+            "position": 4,
+            "label": "SetAIComply",
+            "url": "https://setaicomply.com/",
+            "footnote": false
+          },
+          {
+            "position": 5,
+            "label": "AI-Act-Kompass",
+            "url": "https://ai-act-compass.com/en/",
+            "footnote": false
+          },
+          {
+            "position": 6,
+            "label": "Beste EU AI Act compliance tools en software in 2026: een neutrale vergelijking",
+            "url": "https://www.praxikon.com/nl/posts/beste-eu-ai-act-compliance-tools-software-2026",
+            "footnote": false
+          },
+          {
+            "position": 7,
+            "label": "",
+            "url": "https://complee.eu/compliance-checker",
+            "footnote": true
+          },
+          {
+            "position": 8,
+            "label": "",
+            "url": "https://actnavigator.com/",
+            "footnote": true
+          },
+          {
+            "position": 9,
+            "label": "",
+            "url": "https://euaicompass.com/article-5-prohibited-ai-practices-explained.html",
+            "footnote": true
+          },
+          {
+            "position": 10,
+            "label": "",
+            "url": "https://actscope.eu/eu-ai-act-compliance-for-smes",
+            "footnote": true
+          },
+          {
+            "position": 11,
+            "label": "",
+            "url": "https://app.veritome.eu/blog/best-eu-ai-act-compliance-software-2026",
+            "footnote": true
+          },
+          {
+            "position": 12,
+            "label": "",
+            "url": "https://toolradar.com/guides/best-eu-ai-act-compliance-tools",
+            "footnote": true
+          },
+          {
+            "position": 13,
+            "label": "",
+            "url": "https://vahtor.com/compare/best-ai-governance-tools-smb",
+            "footnote": true
+          },
+          {
+            "position": 14,
+            "label": "",
+            "url": "https://veritome.eu/blog/best-eu-ai-act-compliance-software-2026",
+            "footnote": true
+          },
+          {
+            "position": 15,
+            "label": "",
+            "url": "https://veritome.eu/blog/gpai-obligations-under-the-eu-ai-act-articles-53-and-55-explained",
+            "footnote": true
+          },
+          {
+            "position": 16,
+            "label": "",
+            "url": "https://www.legalithm.com/en/blog/best-eu-ai-act-compliance-software-startups-smes",
+            "footnote": true
+          },
+          {
+            "position": 17,
+            "label": "",
+            "url": "https://www.legalithm.com/en/blog/eu-ai-act-compliance-software-tools-compared-2026",
+            "footnote": true
+          },
+          {
+            "position": 18,
+            "label": "",
+            "url": "https://www.praxikon.com/en/posts/best-eu-ai-act-compliance-tools-software-2026",
+            "footnote": true
+          }
+        ],
+        "entities": [
+          {
+            "type": "software",
+            "name": "ActScope"
+          },
+          {
+            "type": "software",
+            "name": "SetAIComply"
+          },
+          {
+            "type": "software",
+            "name": "AI-Act-Kompass"
+          },
+          {
+            "type": "software",
+            "name": "Veritome"
+          },
+          {
+            "type": "software",
+            "name": "Complipath"
+          }
+        ],
+        "map": [],
+        "followUpForm": {
+          "questions": [
+            {
+              "label": "1. Hoe gebruikt het bedrijf AI?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "We gebruiken AI-tools zoals ChatGPT, Copilot en Gemini",
+                  "value": "We gebruiken AI-tools zoals ChatGPT, Copilot en Gemini",
+                  "selected": true
+                },
+                {
+                  "label": "We bouwen zelf AI-toepassingen of software",
+                  "value": "We bouwen zelf AI-toepassingen of software",
+                  "selected": false
+                },
+                {
+                  "label": "We verkopen AI-oplossingen aan klanten",
+                  "value": "We verkopen AI-oplossingen aan klanten",
+                  "selected": false
+                },
+                {
+                  "label": "Een combinatie van bovenstaande",
+                  "value": "Een combinatie van bovenstaande",
+                  "selected": false
+                }
+              ],
+              "name": "type"
+            },
+            {
+              "label": "2. Hoeveel medewerkers?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "1–10 medewerkers",
+                  "value": "1–10 medewerkers",
+                  "selected": false
+                },
+                {
+                  "label": "10–50 medewerkers",
+                  "value": "10–50 medewerkers",
+                  "selected": true
+                },
+                {
+                  "label": "50–250 medewerkers",
+                  "value": "50–250 medewerkers",
+                  "selected": false
+                },
+                {
+                  "label": "Meer dan 250 medewerkers",
+                  "value": "Meer dan 250 medewerkers",
+                  "selected": false
+                }
+              ],
+              "name": "size"
+            },
+            {
+              "label": "3. Wat is het belangrijkste doel?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Zo goedkoop mogelijk aantoonbaar compliant worden",
+                  "value": "Zo goedkoop mogelijk aantoonbaar compliant worden",
+                  "selected": true
+                },
+                {
+                  "label": "Volledige EU AI Act-compliance inclusief documentatie",
+                  "value": "Volledige EU AI Act-compliance inclusief documentatie",
+                  "selected": false
+                },
+                {
+                  "label": "Compliance combineren met AVG/GDPR en ISO 27001",
+                  "value": "Compliance combineren met AVG/GDPR en ISO 27001",
+                  "selected": false
+                },
+                {
+                  "label": "Een tool aanbieden aan onze eigen klanten",
+                  "value": "Een tool aanbieden aan onze eigen klanten",
+                  "selected": false
+                }
+              ],
+              "name": "goal"
+            },
+            {
+              "label": "4. Wat is het maandelijkse budget?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Gratis",
+                  "value": "Gratis",
+                  "selected": false
+                },
+                {
+                  "label": "€25–€100 per maand",
+                  "value": "€25–€100 per maand",
+                  "selected": true
+                },
+                {
+                  "label": "€100–€500 per maand",
+                  "value": "€100–€500 per maand",
+                  "selected": false
+                },
+                {
+                  "label": "Meer dan €500 per maand",
+                  "value": "Meer dan €500 per maand",
+                  "selected": false
+                }
+              ],
+              "name": "budget"
+            }
+          ],
+          "submitLabel": "Geef mij een concreet advies",
+          "followUpPrompt": "Maak een concrete vergelijking en adviseer de beste EU AI Act-compliance tool voor dit mkb-bedrijf. AI-gebruik: {type}. Omvang: {size}. Doel: {goal}. Budget: {budget}. Vergelijk functionaliteit, kosten, AVG, Nederlandse taal en geschiktheid."
+        },
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://actscope.eu/guide/best-eu-ai-act-compliance-software-for-smes",
+            "label": "Best EU AI Act Compliance Software for SMEs (2026)",
+            "domain": "actscope.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://unadhi.com/guides/eu-ai-act-compliance-tools-small-business-2026.html",
+            "label": "EU AI Act compliance tools for small businesses in 2026: honest comparison",
+            "domain": "unadhi.com",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 2
+          },
+          {
+            "url": "https://www.praxikon.com/nl/posts/beste-eu-ai-act-compliance-tools-software-2026",
+            "label": "Beste EU AI Act compliance tools en software in 2026: een neutrale vergelijking",
+            "domain": "praxikon.com",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 6
+          },
+          {
+            "url": "https://unadhi.com/guides/eu-ai-act-compliance-tools-small-business-2026.html",
+            "label": "EU AI Act compliance tools for small businesses in 2026: honest comparison",
+            "domain": "unadhi.com",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 2
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  },
+  {
+    "id": "literacy",
+    "lang": "de",
+    "country": "DE",
+    "prompt": "Ist eine KI-Kompetenz-Schulung nach dem AI Act Pflicht, und welchen Kurs sollten wir nutzen?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "Ja. Eine KI-Kompetenz-Schulung ist nach dem EU AI Act (KI-Verordnung) grundsätzlich verpflichtend. Die Pflicht gilt bereits seit dem 2. Februar 2025 und betrifft auch Unternehmen, die lediglich ChatGPT, Microsoft Copilot oder andere KI-Anwendungen im Arbeitsalltag einsetzen.\n\nWichtig ist dabei: Der AI Act schreibt keinen bestimmten Kurs, keine feste Schulungsdauer und kein vorgeschriebenes Zertifikat vor. Entscheidend ist, dass Beschäftigte, die mit KI-Systemen arbeiten, über eine ausreichende KI-Kompetenz verfügen.\n\n1. Was verlangt der AI Act konkret?\n\nDie Grundlage ist Artikel 4 der EU-Verordnung 2024/1689.\n\nUnternehmen, die KI-Systeme einsetzen oder bereitstellen, müssen nach besten Kräften sicherstellen, dass ihr Personal und andere Personen, die in ihrem Auftrag mit KI-Systemen arbeiten, über ein ausreichendes Maß an KI-Kompetenz verfügen.\n\nDazu gehören insbesondere:\n\nKI-Grundlagen: Wie funktionieren KI-Systeme und generative KI?\n\nChancen und Risiken: Wo liegen Fehlerquellen, Halluzinationen und Verzerrungen?\n\nDatenschutz: Welche Unternehmens- und personenbezogenen Daten dürfen eingegeben werden?\n\nUrheberrecht: Was ist bei KI-generierten Inhalten zu beachten?\n\nSichere Anwendung: Wie werden KI-Ergebnisse geprüft und verantwortungsvoll eingesetzt?\n\nUnternehmensregeln: Welche KI-Tools dürfen Beschäftigte verwenden und wofür?\n\nDie Schulung sollte sich an den tatsächlichen Aufgaben, Vorkenntnissen und Risiken der jeweiligen Beschäftigten orientieren.\n\nWichtige Aktualisierung zum Rechtsstand November 2026: Artikel 4 wurde inzwischen durch den Digital Omnibus angepasst. Die Verpflichtung zur Förderung der KI-Kompetenz besteht weiterhin, allerdings ist kein bestimmtes Kompetenzniveau mehr vorgeschrieben. Auch eine individuelle Wissensprüfung ist nicht verpflichtend. Die Aufsicht und Durchsetzung gelten seit dem 2. August 2026.\n\n2. Welchen Kurs sollten Sie nutzen?\n\nIch würde zwischen drei Möglichkeiten unterscheiden:\n\nAnbieter\n\nEinsatzbereich\n\nKI-Campus\n\nGrundlagen und kostenloses digitales Lernen\n\nTÜV\n\nStrukturierte Unternehmensschulungen und Weiterbildung\n\nBitkom Akademie\n\nPraxisorientierte KI-Schulungen für Unternehmen\n\nMeine Empfehlung für ein normales Unternehmen:\n\nEine Kombination aus einem allgemeinen Online-Grundkurs und einer internen, unternehmensspezifischen KI-Unterweisung.\n\nWarum? Ein allgemeiner Kurs vermittelt Grundlagen. Er beantwortet aber nicht automatisch die Fragen, die für Ihre Mitarbeiter wichtig sind:\n\nDürfen Mitarbeiter ChatGPT oder Copilot nutzen?\n\nWelche vertraulichen Daten dürfen eingegeben werden?\n\nWer kontrolliert KI-generierte Texte und Ergebnisse?\n\nWas gilt bei Kundeninformationen und personenbezogenen Daten?\n\nWelche KI-Anwendungen sind im Unternehmen freigegeben?\n\nEine solche Kombination ist wesentlich näher an den tatsächlichen Anforderungen des AI Acts als ein beliebiges KI-Zertifikat.\n\nKonkrete Kursangebote\n\n1. KI-Campus – EU AI Act Essentials\n\nKostenlos\n\nGut für Grundlagenwissen der Mitarbeiter.\n\nOnline und flexibel.\n\nMit Lernangeboten zur verantwortungsvollen KI-Nutzung.\n\nZum KI-Campus ·\n\n2. Bitkom Akademie – KI-Kompetenz nach Art. 4\n\nSpeziell für Unternehmen.\n\nBeschäftigt sich mit Schulungsinhalten, Zielgruppen und Dokumentation.\n\nAuch individuelle Inhouse-Schulungen.\n\nZu den KI-Kompetenzschulungen ·\n\n3. TÜV Rheinland – KI-Kompetenz gemäß EU AI Act und DSGVO\n\nPraxisorientierte Weiterbildung.\n\nDatenschutz, Halluzinationen, Prompting und KI-Governance.\n\nTeilnahmebescheinigung.\n\nZum TÜV-Kurs ·\n\n3. Was sollte Ihr Unternehmen dokumentieren?\n\nIch würde eine einfache interne Nachweisdokumentation aufbauen:\n\nName der Schulung bzw. Qualifizierungsmaßnahme.\n\nDatum und teilnehmende Mitarbeiter.\n\nVermittelte Inhalte.\n\nEingesetzte KI-Systeme (z. B. ChatGPT, Copilot).\n\nInterne KI-Nutzungsrichtlinie.\n\nGegebenenfalls ergänzende Schulungen für bestimmte Aufgabenbereiche.\n\nEin Zertifikat ist nach der aktuellen Auskunft der EU-Kommission nicht vorgeschrieben. Eine interne Dokumentation der Maßnahmen ist sinnvoll.\n\n4. Ich würde Ihnen gerne einen konkreten Kurs empfehlen\n\nDafür wäre wichtig zu wissen, wie Ihr Unternehmen KI einsetzt.\n\nDann kann ich Ihnen einen konkreten Kurs empfehlen, der zu Ihrem Unternehmen passt, einschließlich Kostenorientierung und einer möglichst einfachen Umsetzung der Anforderungen des AI Acts.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "KI-Kompetenz - Fragen & Ampere; Antworten",
+            "url": "https://digital-strategy.ec.europa.eu/de/faqs/ai-literacy-questions-answers",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "AI Literacy - Questions & Answers",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "Frequently Asked Questions (FAQ)",
+            "url": "https://ki-campus.org/faq?language=de",
+            "footnote": false
+          },
+          {
+            "position": 4,
+            "label": "Zum KI-Campus",
+            "url": "https://ki-campus.org/",
+            "footnote": false
+          },
+          {
+            "position": 5,
+            "label": "Frequently Asked Questions (FAQ)",
+            "url": "https://ki-campus.org/faq",
+            "footnote": false
+          },
+          {
+            "position": 6,
+            "label": "KI-Kompetenz nach Art. 4 AI Act: Reicht eine kurze Mitarbeiterschulung?",
+            "url": "https://bitkom-akademie.de/live-online-seminar/ki-kompetenz_nach_art_4",
+            "footnote": false
+          },
+          {
+            "position": 7,
+            "label": "Zu den KI-Kompetenzschulungen",
+            "url": "https://bitkom-akademie.de/inhouse/ki-kompetenzschulungen",
+            "footnote": false
+          },
+          {
+            "position": 8,
+            "label": "Zum TÜV-Kurs",
+            "url": "https://kurse.tuv.com/weiterbildung/ki-kompetenz-eu-ai-act-dsgvo",
+            "footnote": false
+          },
+          {
+            "position": 9,
+            "label": "",
+            "url": "https://ki-campus.org/blog/relaunch",
+            "footnote": true
+          },
+          {
+            "position": 10,
+            "label": "",
+            "url": "https://bitkom-akademie.de/news/welches-ki-seminar-passt-zu-mir",
+            "footnote": true
+          },
+          {
+            "position": 11,
+            "label": "",
+            "url": "https://epd.guide/epd-consultants-and-service-providers/tuv-rheinlands-lca-and-epd-services-explained",
+            "footnote": true
+          },
+          {
+            "position": 12,
+            "label": "",
+            "url": "https://akademie.tuv.com/themen/kuenstliche-intelligenz?date=2026_09_23-2026_12_23&event_type=Virtual+Classroom&graduation_information_title=Teilnahmebescheinigung&p=4",
+            "footnote": true
+          },
+          {
+            "position": 13,
+            "label": "",
+            "url": "https://akademie.tuv.com/themen/kuenstliche-intelligenz?date=2026_09_27-2026_10_25&graduation_information_title=Zertifikat&is_guaranteed_event=1",
+            "footnote": true
+          },
+          {
+            "position": 14,
+            "label": "",
+            "url": "https://akademie.tuv.com/themen/kuenstliche-intelligenz?date=2026_10_10-2026_11_07&p=2",
+            "footnote": true
+          },
+          {
+            "position": 15,
+            "label": "",
+            "url": "https://akademie.tuv.com/themen/kuenstliche-intelligenz?date=2026_10_22-2027_01_22&event_type=Pr%C3%A4senz&graduation_information_title=Zertifikat&profile_type=Seminar",
+            "footnote": true
+          },
+          {
+            "position": 16,
+            "label": "",
+            "url": "https://akademie.tuv.com/themen/kuenstliche-intelligenz?date=2026_10_26-2027_01_26&event_type=Virtual+Classroom&is_guaranteed_event=1&profile_type=Seminar",
+            "footnote": true
+          },
+          {
+            "position": 17,
+            "label": "",
+            "url": "https://akademie.tuv.com/themen/kuenstliche-intelligenz?date=2026_10_28-2026_11_25&event_type%5B0%5D=Pr%C3%A4senz&event_type%5B1%5D=Virtual+Classroom",
+            "footnote": true
+          },
+          {
+            "position": 18,
+            "label": "",
+            "url": "https://akademie.tuv.com/themen/kuenstliche-intelligenz?date=2026_10_28-2027_01_28&event_type%5B0%5D=Pr%C3%A4senz&event_type%5B1%5D=Virtual+Classroom&graduation_information_title=Zertifikat&p=2&profile_type%5B0%5D=Seminar&profile_type%5B1%5D=Lehrgang",
+            "footnote": true
+          },
+          {
+            "position": 19,
+            "label": "",
+            "url": "https://akademie.tuv.com/themen/kuenstliche-intelligenz?date=2026_10_31-2027_01_31&graduation_information_title=Zertifikat&profile_type%5B0%5D=Seminar&profile_type%5B1%5D=Lehrgang",
+            "footnote": true
+          },
+          {
+            "position": 20,
+            "label": "",
+            "url": "https://akademie.tuv.com/themen/kuenstliche-intelligenz?date=2026_11_03-2026_12_01&event_type=Pr%C3%A4senz&graduation_information_title=Teilnahmebescheinigung",
+            "footnote": true
+          },
+          {
+            "position": 21,
+            "label": "",
+            "url": "https://akademie.tuv.com/themen/kuenstliche-intelligenz?date=2026_11_04-2027_05_04&event_type%5B0%5D=Pr%C3%A4senz&event_type%5B1%5D=Virtual+Classroom&is_guaranteed_event=1",
+            "footnote": true
+          },
+          {
+            "position": 22,
+            "label": "",
+            "url": "https://akademie.tuv.com/themen/kuenstliche-intelligenz?date=2026_11_11-2027_02_11&event_type=Pr%C3%A4senz&graduation_information_title=Zertifikat",
+            "footnote": true
+          },
+          {
+            "position": 23,
+            "label": "",
+            "url": "https://bitkom-akademie.de/live-online-seminar/ai-act_ab_august",
+            "footnote": true
+          },
+          {
+            "position": 24,
+            "label": "",
+            "url": "https://bitkom-akademie.de/live-online-seminar/ki-kompetenz-fuer-unternehmen",
+            "footnote": true
+          },
+          {
+            "position": 25,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng/pdf",
+            "footnote": true
+          },
+          {
+            "position": 26,
+            "label": "",
+            "url": "https://www.bitkom-consult.de/schulungen_weiterbildungen",
+            "footnote": true
+          },
+          {
+            "position": 27,
+            "label": "",
+            "url": "https://www.tuvsud.com/de-de/store/akademie/c/seminare-management/kuenstliche-intelligenz/prd-1716101",
+            "footnote": true
+          }
+        ],
+        "entities": [
+          {
+            "type": "organization",
+            "name": "KI-Campus"
+          },
+          {
+            "type": "organization",
+            "name": "TÜV"
+          },
+          {
+            "type": "organization",
+            "name": "Bitkom Akademie"
+          }
+        ],
+        "map": [],
+        "followUpForm": {
+          "questions": [
+            {
+              "label": "1. Wie groß ist Ihr Unternehmen?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "1–10 Mitarbeiter",
+                  "value": "1–10 Mitarbeiter",
+                  "selected": false
+                },
+                {
+                  "label": "11–50 Mitarbeiter",
+                  "value": "11–50 Mitarbeiter",
+                  "selected": true
+                },
+                {
+                  "label": "51–250 Mitarbeiter",
+                  "value": "51–250 Mitarbeiter",
+                  "selected": false
+                },
+                {
+                  "label": "Mehr als 250 Mitarbeiter",
+                  "value": "Mehr als 250 Mitarbeiter",
+                  "selected": false
+                }
+              ],
+              "name": "size"
+            },
+            {
+              "label": "2. Welche KI-Anwendungen nutzen Sie?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "ChatGPT und Microsoft Copilot im Büroalltag",
+                  "value": "ChatGPT und Microsoft Copilot im Büroalltag",
+                  "selected": true
+                },
+                {
+                  "label": "KI in Marketing, Vertrieb und Kundenservice",
+                  "value": "KI in Marketing, Vertrieb und Kundenservice",
+                  "selected": false
+                },
+                {
+                  "label": "KI in Entwicklung und IT",
+                  "value": "KI in Entwicklung und IT",
+                  "selected": false
+                },
+                {
+                  "label": "KI in mehreren Unternehmensbereichen",
+                  "value": "KI in mehreren Unternehmensbereichen",
+                  "selected": false
+                },
+                {
+                  "label": "Wir starten gerade erst mit KI",
+                  "value": "Wir starten gerade erst mit KI",
+                  "selected": false
+                }
+              ],
+              "name": "usage"
+            },
+            {
+              "label": "3. Welches Schulungsformat bevorzugen Sie?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Online-Schulung für alle Mitarbeiter",
+                  "value": "Online-Schulung für alle Mitarbeiter",
+                  "selected": true
+                },
+                {
+                  "label": "Selbstlernkurse (E-Learning)",
+                  "value": "Selbstlernkurse (E-Learning)",
+                  "selected": false
+                },
+                {
+                  "label": "Präsenzschulung oder Inhouse-Seminar",
+                  "value": "Präsenzschulung oder Inhouse-Seminar",
+                  "selected": false
+                },
+                {
+                  "label": "Kombination aus Online und interner Schulung",
+                  "value": "Kombination aus Online und interner Schulung",
+                  "selected": false
+                }
+              ],
+              "name": "format"
+            },
+            {
+              "label": "4. Benötigen Sie ein Zertifikat?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Ja, mit Zertifikat",
+                  "value": "Ja, mit Zertifikat",
+                  "selected": false
+                },
+                {
+                  "label": "Nein, nicht erforderlich",
+                  "value": "Nein, nicht erforderlich",
+                  "selected": true
+                },
+                {
+                  "label": "Eine Teilnahmebestätigung genügt",
+                  "value": "Eine Teilnahmebestätigung genügt",
+                  "selected": false
+                }
+              ],
+              "name": "certificate"
+            }
+          ],
+          "submitLabel": "Empfehlung erstellen",
+          "followUpPrompt": "Bitte empfehle uns einen konkreten KI-Kompetenzkurs und ein Schulungskonzept nach dem aktuellen AI Act. Unternehmensgröße: {size}. KI-Nutzung: {usage}. Format: {format}. Zertifikat: {certificate}."
+        },
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "label": "AI Literacy - Questions & Answers",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 2
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/de/faqs/ai-literacy-questions-answers",
+            "label": "KI-Kompetenz - Fragen & Ampere; Antworten",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://ki-campus.org/faq?language=de",
+            "label": "Frequently Asked Questions (FAQ)",
+            "domain": "ki-campus.org",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 3
+          },
+          {
+            "url": "https://ki-campus.org/faq",
+            "label": "Frequently Asked Questions (FAQ)",
+            "domain": "ki-campus.org",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 5
+          },
+          {
+            "url": "https://bitkom-akademie.de/inhouse/ki-kompetenzschulungen",
+            "label": "KI-Kompetenzschulungen",
+            "domain": "bitkom-akademie.de",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 7
+          },
+          {
+            "url": "https://bitkom-akademie.de/live-online-seminar/ki-kompetenz_nach_art_4",
+            "label": "KI-Kompetenz nach Art. 4 AI Act: Reicht eine kurze Mitarbeiterschulung?",
+            "domain": "bitkom-akademie.de",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 6
+          },
+          {
+            "url": "https://kurse.tuv.com/weiterbildung/ki-kompetenz-eu-ai-act-dsgvo",
+            "label": "| Weiterbildung",
+            "domain": "kurse.tuv.com",
+            "type": "groupedWebpage",
+            "citationPillId": 3,
+            "position": 8
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "label": "AI Literacy - Questions & Answers",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 4,
+            "position": 2
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  },
+  {
+    "id": "literacy",
+    "lang": "fr",
+    "country": "FR",
+    "prompt": "La formation à la maîtrise de l'IA est-elle obligatoire selon l'AI Act, et quelle formation choisir ?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "Oui, la maîtrise de l'intelligence artificielle fait bien l'objet d'une obligation dans l'AI Act européen, mais attention : ce n'est pas une formation certifiante obligatoire pour chaque salarié.\n\nL'article 4 de l'AI Act prévoit une obligation pour les entreprises qui développent ou utilisent des systèmes d'IA de prendre des mesures pour développer les compétences de leurs collaborateurs en matière d'intelligence artificielle.\n\nL'objectif est de permettre aux salariés de comprendre les outils d'IA, de les utiliser correctement et d'en connaître les risques.\n\nVoici ce que cela signifie concrètement pour une entreprise en France, au 14 novembre 2026.\n\n1. Que prévoit exactement l'AI Act ?\n\nL'article 4 concerne deux catégories d'organisations :\n\nLes fournisseurs d'IA : entreprises qui développent ou commercialisent des systèmes d'intelligence artificielle.\n\nLes déployeurs d'IA : entreprises qui utilisent des outils d'IA dans le cadre de leur activité professionnelle (ChatGPT, Copilot, Gemini, outils métiers intégrant de l'IA, etc.).\n\nDepuis le 2 février 2025, cette obligation s'applique.\n\nDepuis la modification du règlement entrée en vigueur le 27 juillet 2026, l'article 4 impose toujours de prendre des mesures en faveur de la maîtrise de l'IA, mais ne demande plus de garantir un niveau précis de compétences à chaque salarié.\n\nCe qui est obligatoire et ce qui ne l'est pas\n\nExigence\n\nStatut\n\nSensibiliser les collaborateurs à l'IA\n\nOui\n\nDévelopper leurs compétences en IA\n\nOui\n\nAdapter les actions aux usages professionnels\n\nOui\n\nOrganiser obligatoirement une formation externe\n\nNon\n\nObtenir une certification individuelle\n\nNon\n\nFaire passer un examen à chaque salarié\n\nNon\n\nDésigner un responsable IA (AI Officer)\n\nNon\n\nConserver des preuves des actions réalisées\n\nFortement recommandé\n\nLa Commission européenne précise qu'il n'existe ni format de formation unique, ni obligation de certification. Elle recommande néanmoins des actions adaptées aux usages et aux profils des collaborateurs.\n\n2. Quelle formation choisir ?\n\nJe recommande de raisonner en fonction des profils de collaborateurs plutôt que d'acheter une formation généraliste identique pour tout le monde.\n\nVoici les trois niveaux de formation à envisager.\n\nNiveau 1 – Sensibilisation à l'IA\n\nTous les salariés\n\nComprendre ce qu'est l'IA générative.\n\nDécouvrir ChatGPT, Copilot et Gemini.\n\nIdentifier les limites et les erreurs possibles.\n\nComprendre les risques liés aux données confidentielles.\n\nApprendre les bonnes pratiques de rédaction de prompts.\n\nDurée indicative : 1 à 2 heures.\n\nNiveau 2 – Utilisation professionnelle de l'IA\n\nUtilisateurs réguliers\n\nMaîtriser les outils d'IA générative.\n\nAutomatiser certaines tâches.\n\nProduire des documents et analyser des informations.\n\nVérifier les réponses générées.\n\nRespecter le RGPD et les règles de confidentialité.\n\nDurée indicative : une demi-journée à une journée.\n\nNiveau 3 – Gouvernance et risques de l'IA\n\nDirection, RH, DSI, juridique, conformité\n\nComprendre les obligations de l'AI Act.\n\nCartographier les usages de l'IA.\n\nIdentifier les risques et les systèmes à haut risque.\n\nDéfinir une charte d'utilisation de l'IA.\n\nOrganiser la gouvernance et le contrôle humain.\n\nDurée indicative : 1 à 2 jours.\n\n3. Quels organismes ou ressources choisir ?\n\nVoici des pistes concrètes pour construire votre parcours de formation.\n\nOrganisme / ressource\n\nIntérêt principal\n\nCNIL\n\nRGPD, données personnelles et IA\n\nFUN MOOC\n\nFormations en ligne et fondamentaux\n\nFrance Num\n\nAccompagnement des entreprises dans le numérique\n\nCommission européenne – AI Office\n\nRessources officielles sur la maîtrise de l'IA et l'AI Act\n\nRessources à consulter :\n\nFAQ officielle de la Commission européenne sur l'AI Literacy .\n\nRessources de la CNIL sur l'intelligence artificielle .\n\nFrance Num : accompagnement des entreprises .\n\nFUN MOOC : formations en ligne .\n\nMon conseil : privilégiez une formation qui associe trois dimensions : compréhension de l'IA, mise en pratique avec les outils utilisés dans l'entreprise et sensibilisation aux risques juridiques et déontologiques.\n\nUn simple cours de prise en main de ChatGPT ne couvre pas nécessairement les besoins de conformité à l'AI Act.\n\n4. Comment prouver que votre entreprise respecte l'obligation ?\n\nJe conseille de mettre en place un petit dossier de conformité comprenant :\n\nUne cartographie des outils d'IA utilisés dans l'entreprise.\n\nUne identification des collaborateurs concernés.\n\nUn programme de sensibilisation ou de formation adapté.\n\nLes supports pédagogiques et les contenus abordés.\n\nUne feuille d'émargement ou un relevé de participation.\n\nUne charte interne d'utilisation de l'intelligence artificielle.\n\nIl n'existe pas d'obligation générale de délivrer un certificat. En revanche, conserver les traces des actions menées permet de démontrer les démarches engagées.\n\nAttention : pour les entreprises qui déploient des systèmes d'IA à haut risque, des obligations supplémentaires de formation des personnes chargées de leur utilisation et de la supervision humaine s'appliquent, notamment au titre de l'article 26.\n\n5. Ma recommandation\n\nPour une entreprise classique qui utilise ChatGPT, Microsoft Copilot ou d'autres outils d'IA, je privilégierais :\n\nUne sensibilisation obligatoire en interne pour l'ensemble des collaborateurs concernés.\n\nUne formation pratique plus approfondie pour les utilisateurs réguliers.\n\nUne formation spécifique AI Act, RGPD et gouvernance pour les responsables.\n\nCela permet de couvrir à la fois les besoins opérationnels et les enjeux réglementaires.\n\n6. Pour vous conseiller une formation précise\n\nJ'aimerais savoir dans quel contexte vous recherchez cette formation.\n\nJe pourrai ainsi vous proposer des formations concrètes, avec les organismes, les tarifs, les durées et surtout leur pertinence au regard de l'AI Act.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "AI Literacy - Questions & Answers",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI) (Text with EEA relevance)",
+            "url": "https://eur-lex.europa.eu/legal-content/ENG/TXT/PDF/?uri=OJ%3AL_202601744",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "Frequently Asked Questions",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/faq?page=2",
+            "footnote": false
+          },
+          {
+            "position": 4,
+            "label": "Ressources de la CNIL sur l'intelligence artificielle",
+            "url": "https://www.cnil.fr/fr/intelligence-artificielle",
+            "footnote": false
+          },
+          {
+            "position": 5,
+            "label": "France Num : accompagnement des entreprises",
+            "url": "https://www.francenum.gouv.fr/",
+            "footnote": false
+          },
+          {
+            "position": 6,
+            "label": "FUN MOOC : formations en ligne",
+            "url": "https://www.fun-mooc.fr/",
+            "footnote": false
+          },
+          {
+            "position": 7,
+            "label": "",
+            "url": "https://www.actionfirst.fr/formation/catalogueDetail.php?comprendre-et-utiliser-l-rsquo-intelligence-artificielle-de-maniere-responsable-en-entreprise-3810=",
+            "footnote": true
+          },
+          {
+            "position": 8,
+            "label": "",
+            "url": "https://www.analyticsinsight.net/news/77-of-indian-professionals-now-use-ai-at-work-naukri-report",
+            "footnote": true
+          },
+          {
+            "position": 9,
+            "label": "",
+            "url": "https://ai-x-leaders.com/en/programmes/ai-governance",
+            "footnote": true
+          },
+          {
+            "position": 10,
+            "label": "",
+            "url": "https://aesia.digital.gob.es/en/present/resourcesria-articulo-4",
+            "footnote": true
+          },
+          {
+            "position": 11,
+            "label": "",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4?trk=public_post_comment-text",
+            "footnote": true
+          },
+          {
+            "position": 12,
+            "label": "",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/faq?combine=&page=2",
+            "footnote": true
+          },
+          {
+            "position": 13,
+            "label": "",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/faq?combine=ai+office&faq_category_id=All",
+            "footnote": true
+          },
+          {
+            "position": 14,
+            "label": "",
+            "url": "https://aicontext.eu/en/eu-ai-act/article/4",
+            "footnote": true
+          },
+          {
+            "position": 15,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng/pdf",
+            "footnote": true
+          },
+          {
+            "position": 16,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng/pdf",
+            "footnote": true
+          },
+          {
+            "position": 17,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CONSIL%3AST_10599_2026_INIT",
+            "footnote": true
+          },
+          {
+            "position": 18,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/en/ALL/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          },
+          {
+            "position": 19,
+            "label": "",
+            "url": "https://service.betterregulation.com/document/802295",
+            "footnote": true
+          },
+          {
+            "position": 20,
+            "label": "",
+            "url": "https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/07_Literacy/faq/faq_ai-competence.html",
+            "footnote": true
+          },
+          {
+            "position": 21,
+            "label": "",
+            "url": "https://www.edpb.europa.eu/system/files/documents/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf",
+            "footnote": true
+          },
+          {
+            "position": 22,
+            "label": "",
+            "url": "https://www.praxikon.com/en/ai-act/artikel/4",
+            "footnote": true
+          },
+          {
+            "position": 23,
+            "label": "",
+            "url": "https://www.praxikon.com/en/richtsnoeren/ai-literacy-questions-answers",
+            "footnote": true
+          }
+        ],
+        "entities": [
+          {
+            "type": "organization",
+            "name": "CNIL"
+          },
+          {
+            "type": "software",
+            "name": "FUN MOOC"
+          },
+          {
+            "type": "organization",
+            "name": "France Num"
+          },
+          {
+            "type": "organization",
+            "name": "Commission européenne – AI Office"
+          }
+        ],
+        "map": [],
+        "followUpForm": {
+          "questions": [
+            {
+              "label": "Quel est votre objectif ?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Former les salariés de mon entreprise",
+                  "value": "Entreprise souhaitant former ses salariés",
+                  "selected": true
+                },
+                {
+                  "label": "Me former personnellement",
+                  "value": "Professionnel souhaitant se former personnellement",
+                  "selected": false
+                },
+                {
+                  "label": "Proposer des formations à des entreprises",
+                  "value": "Organisme souhaitant proposer des formations",
+                  "selected": false
+                }
+              ],
+              "name": "audience"
+            },
+            {
+              "label": "Quelle est la taille de l'entreprise ?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "1 à 10 salariés",
+                  "value": "1 à 10 salariés",
+                  "selected": false
+                },
+                {
+                  "label": "11 à 50 salariés",
+                  "value": "11 à 50 salariés",
+                  "selected": true
+                },
+                {
+                  "label": "51 à 250 salariés",
+                  "value": "51 à 250 salariés",
+                  "selected": false
+                },
+                {
+                  "label": "Plus de 250 salariés",
+                  "value": "Plus de 250 salariés",
+                  "selected": false
+                }
+              ],
+              "name": "size"
+            },
+            {
+              "label": "Quel est votre objectif prioritaire ?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Être en conformité avec l'AI Act",
+                  "value": "Être en conformité avec l'AI Act",
+                  "selected": true
+                },
+                {
+                  "label": "Apprendre à utiliser ChatGPT et Copilot",
+                  "value": "Apprendre à utiliser ChatGPT et Copilot",
+                  "selected": false
+                },
+                {
+                  "label": "Former les salariés aux risques de l'IA",
+                  "value": "Former les salariés aux risques de l'IA",
+                  "selected": false
+                },
+                {
+                  "label": "Obtenir une formation certifiante",
+                  "value": "Obtenir une formation certifiante",
+                  "selected": false
+                },
+                {
+                  "label": "Combiner conformité et maîtrise pratique de l'IA",
+                  "value": "Combiner conformité et maîtrise pratique de l'IA",
+                  "selected": false
+                }
+              ],
+              "name": "goal"
+            },
+            {
+              "label": "Quel format préférez-vous ?",
+              "type": "radio",
+              "options": [
+                {
+                  "label": "Présentiel",
+                  "value": "Présentiel",
+                  "selected": true
+                },
+                {
+                  "label": "À distance",
+                  "value": "Distanciel",
+                  "selected": false
+                },
+                {
+                  "label": "E-learning",
+                  "value": "E-learning",
+                  "selected": false
+                },
+                {
+                  "label": "Peu importe",
+                  "value": "Peu importe",
+                  "selected": false
+                }
+              ],
+              "name": "format"
+            }
+          ],
+          "submitLabel": "Valider mes réponses",
+          "followUpPrompt": "Voici mon contexte pour choisir une formation à la maîtrise de l'IA : {audience}. Taille : {size}. Objectif : {goal}. Format : {format}. Propose-moi des formations concrètes adaptées, avec organismes, tarifs si disponibles et modalités."
+        },
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "label": "AI Literacy - Questions & Answers",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/ENG/TXT/PDF/?uri=OJ%3AL_202601744",
+            "label": "Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI) (Text with EEA relevance)",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 2
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "label": "AI Literacy - Questions & Answers",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 1
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/faq?page=2",
+            "label": "Frequently Asked Questions",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 3
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "label": "AI Literacy - Questions & Answers",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 1
+          },
+          {
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/faq?page=2",
+            "label": "Frequently Asked Questions",
+            "domain": "ai-act-service-desk.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 3
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  },
+  {
+    "id": "literacy",
+    "lang": "nl",
+    "country": "NL",
+    "prompt": "Is AI-geletterdheidstraining verplicht onder de AI Act, en welke cursus moeten we gebruiken?",
+    "response": {
+      "success": true,
+      "result": {
+        "model": null,
+        "text": "Ja. AI-geletterdheidstraining is verplicht onder de Europese AI Act (AI-verordening), maar er is géén verplicht voorgeschreven cursus, certificaat of opleidingsaanbieder.\n\nSinds 2 februari 2025 geldt artikel 4 van de EU AI Act. Organisaties die AI-systemen aanbieden of gebruiken (providers en deployers) moeten maatregelen nemen om ervoor te zorgen dat hun medewerkers en andere personen die namens hen met AI-systemen werken, over voldoende AI-geletterdheid beschikken.\n\nDit betekent dat je als organisatie aantoonbaar moet zorgen dat medewerkers AI op een verantwoorde, veilige en passende manier kunnen gebruiken.\n\n1. Voor wie geldt de verplichting?\n\nDe verplichting geldt voor organisaties die:\n\nAI-systemen ontwikkelen of aanbieden (providers).\n\nAI-systemen gebruiken binnen hun bedrijfsvoering (deployers).\n\nMedewerkers of andere personen namens de organisatie AI-systemen laten bedienen of gebruiken.\n\nDit geldt dus ook voor organisaties die bijvoorbeeld ChatGPT, Microsoft Copilot, Gemini of AI-functionaliteiten in hun bedrijfssoftware gebruiken.\n\nBelangrijke nuance: de Europese Commissie heeft in juli 2026 de AI-geletterdheidsbepaling aangepast via de Digital Omnibus. Er geldt nog steeds een verplichting om maatregelen te nemen, maar de organisatie hoeft geen specifiek kennisniveau bij iedere medewerker te garanderen. Ook is een formele kennistoets niet verplicht.\n\n2. Welke cursus moeten jullie gebruiken?\n\nEr is geen door de EU goedgekeurde verplichte cursus. De Europese Commissie bevestigt expliciet dat:\n\nEr geen voorgeschreven opleidingsvorm is.\n\nEen certificaat niet noodzakelijk is.\n\nEen interne registratie van trainingen en andere begeleidingsactiviteiten volstaat als documentatie.\n\nDe inhoud moet aansluiten op de AI-systemen die jullie gebruiken en de kennis en werkzaamheden van medewerkers.\n\nIk zou daarom kiezen voor een opleiding die minimaal de volgende onderwerpen behandelt:\n\nOnderdeel\n\nWat moeten medewerkers leren?\n\nAI-basiskennis\n\nWat is AI en hoe werkt generatieve AI?\n\nAI in de praktijk\n\nWerken met ChatGPT, Copilot en andere AI-tools\n\nRisico's\n\nHallucinaties, fouten, bias en discriminatie\n\nPrivacy\n\nAVG, persoonsgegevens en vertrouwelijke informatie\n\nVeiligheid\n\nOmgaan met bedrijfsgegevens en informatiebeveiliging\n\nAI Act\n\nVerantwoordelijkheden, verboden toepassingen en risico's\n\nMenselijke controle\n\nAI-output controleren voordat deze wordt gebruikt\n\n3. Welke opleidingsaanpak raad ik aan?\n\nIk zou een combinatie gebruiken van:\n\nBasistraining AI-geletterdheid voor alle medewerkers – bijvoorbeeld een e-learning van 60–90 minuten.\n\nPraktische training per functie – bijvoorbeeld extra aandacht voor HR, marketing, klantenservice, management en IT.\n\nInterne AI-gebruiksrichtlijnen – wat mag wel en niet met AI binnen de organisatie?\n\nPeriodieke actualisering – nieuwe AI-toepassingen, risico's en regelgeving bespreken.\n\nDocumentatie – vastleggen wie welke training of begeleiding heeft gevolgd.\n\nEen belangrijk officieel startpunt is de Europese Commissie zelf:\n\nEuropese Commissie – AI Literacy\n\nOfficiële FAQ met uitleg over artikel 4, opleidingsvormen, documentatie en praktische voorbeelden.\n\nAI Literacy – Questions & Answers\n\nAI Talent, Skills and Literacy\n\n4. Mijn advies: welke cursus moeten jullie concreet kiezen?\n\nIk zou niet uitsluitend een algemene AI-cursus inkopen. Kies een cursus die zowel AI-basiskennis als de AI Act, privacy, informatiebeveiliging en verantwoord AI-gebruik behandelt.\n\nOm een concrete cursus te kunnen aanbevelen, heb ik één vraag:\n\nVoor wat voor organisatie zoeken jullie de training?\n\nEen mkb-bedrijf (tot 250 medewerkers).\n\nEen middelgrote of grote onderneming.\n\nEen overheidsorganisatie of onderwijsinstelling.\n\nEen organisatie in de zorg of financiële dienstverlening.\n\nDan kan ik een shortlist maken van drie concrete Nederlandstalige opleidingen, met aanbieders, kostenindicaties en een beoordeling van de aansluiting op artikel 4 van de AI Act.",
+        "sources": [
+          {
+            "position": 1,
+            "label": "AI talent, skills and literacy",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+            "footnote": false
+          },
+          {
+            "position": 2,
+            "label": "AI Literacy - Questions & Answers",
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "footnote": false
+          },
+          {
+            "position": 3,
+            "label": "EUR-Lex - 02024R1689-20260727 - DE",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+            "footnote": false
+          },
+          {
+            "position": 4,
+            "label": "Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI) (Text with EEA relevance)",
+            "url": "https://eur-lex.europa.eu/legal-content/ENG/TXT/PDF/?uri=OJ%3AL_202601744",
+            "footnote": false
+          },
+          {
+            "position": 5,
+            "label": "",
+            "url": "https://ai-act-law.eu/article/4/",
+            "footnote": true
+          },
+          {
+            "position": 6,
+            "label": "",
+            "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4?trk=public_post_comment-text",
+            "footnote": true
+          },
+          {
+            "position": 7,
+            "label": "",
+            "url": "https://aicontext.eu/en/eu-ai-act/article/4",
+            "footnote": true
+          },
+          {
+            "position": 8,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng/pdf",
+            "footnote": true
+          },
+          {
+            "position": 9,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1783276490775&uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          },
+          {
+            "position": 10,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          },
+          {
+            "position": 11,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CONSIL%3APE_30_2026_INIT",
+            "footnote": true
+          },
+          {
+            "position": 12,
+            "label": "",
+            "url": "https://eur-lex.europa.eu/legal-content/en/ALL/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727",
+            "footnote": true
+          },
+          {
+            "position": 13,
+            "label": "",
+            "url": "https://www.ancom.ro/en/ai-en/ai-literacy/",
+            "footnote": true
+          },
+          {
+            "position": 14,
+            "label": "",
+            "url": "https://www.edpb.europa.eu/system/files/documents/2025-06/spe-training-on-ai-and-data-protection-legal_en.pdf",
+            "footnote": true
+          }
+        ],
+        "entities": [],
+        "map": [],
+        "followUpForm": null,
+        "searchQueries": [],
+        "mapSearchQueries": [],
+        "citationPills": [
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "label": "AI Literacy - Questions & Answers",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 2
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy",
+            "label": "AI talent, skills and literacy",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 0,
+            "position": 1
+          },
+          {
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+            "label": "EUR-Lex - 02024R1689-20260727 - DE",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 3
+          },
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/ENG/TXT/PDF/?uri=OJ%3AL_202601744",
+            "label": "Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI) (Text with EEA relevance)",
+            "domain": "eur-lex.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 1,
+            "position": 4
+          },
+          {
+            "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers",
+            "label": "AI Literacy - Questions & Answers",
+            "domain": "digital-strategy.ec.europa.eu",
+            "type": "groupedWebpage",
+            "citationPillId": 2,
+            "position": 2
+          }
+        ]
+      },
+      "_task_status": "COMPLETED",
+      "_credits_charged": 7
+    }
+  }
+]
